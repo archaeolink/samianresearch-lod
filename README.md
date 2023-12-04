@@ -5,10 +5,10 @@ This repository contains the `ontology` (ontology folder), the transformation `p
 There is also a documentation website which can be accessed by <https://rgzm.github.io/samian-lod> .
 
 ## releases / changelog
-
+ 
 -   10/12/2020: add classes for locations and dynamic file numbers
 -   04/12/2020: first release at JCM CAA-NL-FL, CAA-DE and LinkedPasts6
-
+ 
 ## credits
 
 -   Florian Thiery (RGZM)
