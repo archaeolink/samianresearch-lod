@@ -9,7 +9,7 @@ jobs:
     name: Ontdoc I      
     with: 
           version: v017dev
-          rdffilepath: data/loc_discoverysite_1.ttl data/loc_kilnregion_1.ttl data/loc_productioncentre_1.ttl data/loc_repositorylocation_1.ttl data/placeasaconcept_1.ttl
+          rdffilepath: ttl/loc_productioncentre_1.ttl
           docpath: docs/
           prefixns: http://data.archaeology.link/data/samian/
           prefixnsshort: ars
