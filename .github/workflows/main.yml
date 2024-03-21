@@ -12,7 +12,7 @@ jobs:
           rdffilepath: ttl/loc_productioncentre_1.ttl
           docpath: docs/
           prefixns: http://data.archaeology.link/data/samian/
-          prefixnsshort: ars
+          prefixnsshort: samian
           indexpages: true
           metadatatable: false
           createcollections: true
