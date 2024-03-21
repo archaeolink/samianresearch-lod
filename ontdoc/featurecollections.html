@@ -38,7 +38,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
-    <script src="{{epsgdefspath}}"></script>
+    <script src="epsgdefs.js"></script>
     <script src="vowl_result.js"></script>
     <script src="samian_search.js"></script>
     <script src="samian_classtree.js"></script>
@@ -71,7 +71,10 @@
       <span class="header_pt1">
         <b>archaeology.link</b>&nbsp;&nbsp;<img
           src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png"
-          style="height: 40px !important; margin-right: 10px" />Linked_Open_Samian_Ware&nbsp;|&nbsp;
+          style="
+            height: 40px !important;
+            margin-right: 10px;
+          " />Linked_Open_Samian_Ware&nbsp;|&nbsp;
         <i
           >powered by Leibniz-Zentrum für Archäologie (LEIZA), Department of
           Scientific IT</i
@@ -82,7 +85,7 @@
       <script>
         if (window.location.href.includes("index.html")) {
           document.write(
-            '<h1 id="title"><img src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png"/>Feature Collection Overview<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png" width="25" height="25"/>Feature Collection Overview<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
           );
         } else {
           document.write(
