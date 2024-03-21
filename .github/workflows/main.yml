@@ -21,7 +21,8 @@ jobs:
           preferredlang: en
           ghpages: true
           datasettitle: Linked Open Samian Ware
-          templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-archaeolink/archive/refs/tags/v0.5.zip
+          logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
+          templatedir: https://github.com/Research-Squirrel-Engineers/unicorn-ontdoc-template-archaeolink-scsft/archive/refs/tags/v1.2.zip
           ghpagesfolder: ontdoc/
 
   build:
