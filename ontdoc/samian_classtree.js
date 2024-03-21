@@ -1533,7 +1533,7 @@ var tree={
             },
             "http://www.w3.org/ns/prov-o/wasGeneratedBy": {
               "instancecount": 1,
-              "http://www.w3.org/ns/prov#Activity": 1
+              "http://www.w3.org/ns/prov-o/Activity": 1
             }
           },
           "from": {
@@ -1544,6 +1544,766 @@ var tree={
           }
         },
         "instancecount": 12
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000001",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000001 (samian:activity_loc_pc_2000001)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000002",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000002 (samian:activity_loc_pc_2000002)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000003",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000003 (samian:activity_loc_pc_2000003)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000004",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000004 (samian:activity_loc_pc_2000004)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000005",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000005 (samian:activity_loc_pc_2000005)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000006",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000006 (samian:activity_loc_pc_2000006)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000007",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000007 (samian:activity_loc_pc_2000007)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000008",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000008 (samian:activity_loc_pc_2000008)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000009",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000009 (samian:activity_loc_pc_2000009)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000010",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000010 (samian:activity_loc_pc_2000010)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000011",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000011 (samian:activity_loc_pc_2000011)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000012",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000012 (samian:activity_loc_pc_2000012)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000013",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000013 (samian:activity_loc_pc_2000013)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000014",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000014 (samian:activity_loc_pc_2000014)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000015",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000015 (samian:activity_loc_pc_2000015)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000016",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000016 (samian:activity_loc_pc_2000016)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000017",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000017 (samian:activity_loc_pc_2000017)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000018",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000018 (samian:activity_loc_pc_2000018)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000019",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000019 (samian:activity_loc_pc_2000019)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000020",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000020 (samian:activity_loc_pc_2000020)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000021",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000021 (samian:activity_loc_pc_2000021)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000022",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000022 (samian:activity_loc_pc_2000022)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000023",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000023 (samian:activity_loc_pc_2000023)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000024",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000024 (samian:activity_loc_pc_2000024)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000025",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000025 (samian:activity_loc_pc_2000025)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000026",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000026 (samian:activity_loc_pc_2000026)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000027",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000027 (samian:activity_loc_pc_2000027)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000028",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000028 (samian:activity_loc_pc_2000028)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000029",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000029 (samian:activity_loc_pc_2000029)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000030",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000030 (samian:activity_loc_pc_2000030)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000031",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000031 (samian:activity_loc_pc_2000031)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000032",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000032 (samian:activity_loc_pc_2000032)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000033",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000033 (samian:activity_loc_pc_2000033)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000034",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000034 (samian:activity_loc_pc_2000034)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000035",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000035 (samian:activity_loc_pc_2000035)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000036",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000036 (samian:activity_loc_pc_2000036)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000037",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000037 (samian:activity_loc_pc_2000037)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000038",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000038 (samian:activity_loc_pc_2000038)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000039",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000039 (samian:activity_loc_pc_2000039)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000040",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000040 (samian:activity_loc_pc_2000040)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000041",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000041 (samian:activity_loc_pc_2000041)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000042",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000042 (samian:activity_loc_pc_2000042)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000043",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000043 (samian:activity_loc_pc_2000043)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000044",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000044 (samian:activity_loc_pc_2000044)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000045",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000045 (samian:activity_loc_pc_2000045)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000046",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000046 (samian:activity_loc_pc_2000046)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000047",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000047 (samian:activity_loc_pc_2000047)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000048",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000048 (samian:activity_loc_pc_2000048)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000049",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000049 (samian:activity_loc_pc_2000049)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000050",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000050 (samian:activity_loc_pc_2000050)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000051",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000051 (samian:activity_loc_pc_2000051)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000052",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000052 (samian:activity_loc_pc_2000052)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000053",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000053 (samian:activity_loc_pc_2000053)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000054",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000054 (samian:activity_loc_pc_2000054)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000055",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000055 (samian:activity_loc_pc_2000055)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000056",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000056 (samian:activity_loc_pc_2000056)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000057",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000057 (samian:activity_loc_pc_2000057)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000058",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000058 (samian:activity_loc_pc_2000058)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000059",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000059 (samian:activity_loc_pc_2000059)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000060",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000060 (samian:activity_loc_pc_2000060)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000061",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000061 (samian:activity_loc_pc_2000061)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000062",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000062 (samian:activity_loc_pc_2000062)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000063",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000063 (samian:activity_loc_pc_2000063)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000064",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000064 (samian:activity_loc_pc_2000064)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000065",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000065 (samian:activity_loc_pc_2000065)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000066",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000066 (samian:activity_loc_pc_2000066)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000067",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000067 (samian:activity_loc_pc_2000067)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000068",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000068 (samian:activity_loc_pc_2000068)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000069",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000069 (samian:activity_loc_pc_2000069)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000070",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000070 (samian:activity_loc_pc_2000070)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000071",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000071 (samian:activity_loc_pc_2000071)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000072",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000072 (samian:activity_loc_pc_2000072)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000073",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000073 (samian:activity_loc_pc_2000073)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000074",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000074 (samian:activity_loc_pc_2000074)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000075",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000075 (samian:activity_loc_pc_2000075)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000076",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000076 (samian:activity_loc_pc_2000076)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000077",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000077 (samian:activity_loc_pc_2000077)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000078",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000078 (samian:activity_loc_pc_2000078)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000079",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000079 (samian:activity_loc_pc_2000079)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000080",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000080 (samian:activity_loc_pc_2000080)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000081",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000081 (samian:activity_loc_pc_2000081)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000082",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000082 (samian:activity_loc_pc_2000082)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000083",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000083 (samian:activity_loc_pc_2000083)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000084",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000084 (samian:activity_loc_pc_2000084)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000085",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000085 (samian:activity_loc_pc_2000085)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000086",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000086 (samian:activity_loc_pc_2000086)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000087",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000087 (samian:activity_loc_pc_2000087)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000088",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000088 (samian:activity_loc_pc_2000088)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000089",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000089 (samian:activity_loc_pc_2000089)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000090",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000090 (samian:activity_loc_pc_2000090)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000091",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000091 (samian:activity_loc_pc_2000091)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000092",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000092 (samian:activity_loc_pc_2000092)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000093",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000093 (samian:activity_loc_pc_2000093)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000094",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000094 (samian:activity_loc_pc_2000094)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000095",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000095 (samian:activity_loc_pc_2000095)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000096",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000096 (samian:activity_loc_pc_2000096)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000097",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000097 (samian:activity_loc_pc_2000097)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000098",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000098 (samian:activity_loc_pc_2000098)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000099",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000099 (samian:activity_loc_pc_2000099)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000100",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000100 (samian:activity_loc_pc_2000100)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000101",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000101 (samian:activity_loc_pc_2000101)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000102",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000102 (samian:activity_loc_pc_2000102)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000103",
+        "parent": "http://www.w3.org/ns/prov-o/Activity",
+        "type": "instance",
+        "text": "activity_loc_pc_2000103 (samian:activity_loc_pc_2000103)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/ns/prov-o/Activity",
+        "parent": "#",
+        "type": "class",
+        "text": "Activity (prov1:Activity) [103]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov-o/endedAtTime": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov-o/startedAtTime": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/prov-o/wasAssociatedWith": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            },
+            "http://www.w3.org/ns/prov-o/wasGeneratedBy": {
+              "instancecount": 0,
+              "http://archaeology.link/ontology#Location": 1,
+              "http://archaeology.link/ontology#ProductionCentre": 1
+            }
+          }
+        },
+        "instancecount": 5
       },
       {
         "id": "http://data.archaeology.link/data/samian/loc_pc_2000001_geom",
@@ -2300,766 +3060,6 @@ var tree={
         "instancecount": 3
       },
       {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000001",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000001 (samian:activity_loc_pc_2000001)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000002",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000002 (samian:activity_loc_pc_2000002)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000003",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000003 (samian:activity_loc_pc_2000003)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000004",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000004 (samian:activity_loc_pc_2000004)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000005",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000005 (samian:activity_loc_pc_2000005)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000006",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000006 (samian:activity_loc_pc_2000006)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000007",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000007 (samian:activity_loc_pc_2000007)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000008",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000008 (samian:activity_loc_pc_2000008)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000009",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000009 (samian:activity_loc_pc_2000009)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000010",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000010 (samian:activity_loc_pc_2000010)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000011",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000011 (samian:activity_loc_pc_2000011)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000012",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000012 (samian:activity_loc_pc_2000012)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000013",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000013 (samian:activity_loc_pc_2000013)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000014",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000014 (samian:activity_loc_pc_2000014)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000015",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000015 (samian:activity_loc_pc_2000015)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000016",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000016 (samian:activity_loc_pc_2000016)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000017",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000017 (samian:activity_loc_pc_2000017)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000018",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000018 (samian:activity_loc_pc_2000018)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000019",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000019 (samian:activity_loc_pc_2000019)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000020",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000020 (samian:activity_loc_pc_2000020)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000021",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000021 (samian:activity_loc_pc_2000021)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000022",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000022 (samian:activity_loc_pc_2000022)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000023",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000023 (samian:activity_loc_pc_2000023)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000024",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000024 (samian:activity_loc_pc_2000024)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000025",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000025 (samian:activity_loc_pc_2000025)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000026",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000026 (samian:activity_loc_pc_2000026)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000027",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000027 (samian:activity_loc_pc_2000027)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000028",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000028 (samian:activity_loc_pc_2000028)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000029",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000029 (samian:activity_loc_pc_2000029)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000030",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000030 (samian:activity_loc_pc_2000030)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000031",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000031 (samian:activity_loc_pc_2000031)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000032",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000032 (samian:activity_loc_pc_2000032)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000033",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000033 (samian:activity_loc_pc_2000033)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000034",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000034 (samian:activity_loc_pc_2000034)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000035",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000035 (samian:activity_loc_pc_2000035)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000036",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000036 (samian:activity_loc_pc_2000036)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000037",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000037 (samian:activity_loc_pc_2000037)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000038",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000038 (samian:activity_loc_pc_2000038)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000039",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000039 (samian:activity_loc_pc_2000039)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000040",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000040 (samian:activity_loc_pc_2000040)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000041",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000041 (samian:activity_loc_pc_2000041)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000042",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000042 (samian:activity_loc_pc_2000042)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000043",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000043 (samian:activity_loc_pc_2000043)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000044",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000044 (samian:activity_loc_pc_2000044)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000045",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000045 (samian:activity_loc_pc_2000045)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000046",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000046 (samian:activity_loc_pc_2000046)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000047",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000047 (samian:activity_loc_pc_2000047)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000048",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000048 (samian:activity_loc_pc_2000048)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000049",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000049 (samian:activity_loc_pc_2000049)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000050",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000050 (samian:activity_loc_pc_2000050)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000051",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000051 (samian:activity_loc_pc_2000051)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000052",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000052 (samian:activity_loc_pc_2000052)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000053",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000053 (samian:activity_loc_pc_2000053)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000054",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000054 (samian:activity_loc_pc_2000054)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000055",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000055 (samian:activity_loc_pc_2000055)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000056",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000056 (samian:activity_loc_pc_2000056)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000057",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000057 (samian:activity_loc_pc_2000057)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000058",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000058 (samian:activity_loc_pc_2000058)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000059",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000059 (samian:activity_loc_pc_2000059)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000060",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000060 (samian:activity_loc_pc_2000060)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000061",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000061 (samian:activity_loc_pc_2000061)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000062",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000062 (samian:activity_loc_pc_2000062)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000063",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000063 (samian:activity_loc_pc_2000063)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000064",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000064 (samian:activity_loc_pc_2000064)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000065",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000065 (samian:activity_loc_pc_2000065)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000066",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000066 (samian:activity_loc_pc_2000066)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000067",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000067 (samian:activity_loc_pc_2000067)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000068",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000068 (samian:activity_loc_pc_2000068)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000069",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000069 (samian:activity_loc_pc_2000069)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000070",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000070 (samian:activity_loc_pc_2000070)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000071",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000071 (samian:activity_loc_pc_2000071)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000072",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000072 (samian:activity_loc_pc_2000072)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000073",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000073 (samian:activity_loc_pc_2000073)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000074",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000074 (samian:activity_loc_pc_2000074)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000075",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000075 (samian:activity_loc_pc_2000075)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000076",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000076 (samian:activity_loc_pc_2000076)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000077",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000077 (samian:activity_loc_pc_2000077)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000078",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000078 (samian:activity_loc_pc_2000078)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000079",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000079 (samian:activity_loc_pc_2000079)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000080",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000080 (samian:activity_loc_pc_2000080)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000081",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000081 (samian:activity_loc_pc_2000081)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000082",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000082 (samian:activity_loc_pc_2000082)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000083",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000083 (samian:activity_loc_pc_2000083)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000084",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000084 (samian:activity_loc_pc_2000084)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000085",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000085 (samian:activity_loc_pc_2000085)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000086",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000086 (samian:activity_loc_pc_2000086)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000087",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000087 (samian:activity_loc_pc_2000087)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000088",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000088 (samian:activity_loc_pc_2000088)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000089",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000089 (samian:activity_loc_pc_2000089)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000090",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000090 (samian:activity_loc_pc_2000090)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000091",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000091 (samian:activity_loc_pc_2000091)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000092",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000092 (samian:activity_loc_pc_2000092)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000093",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000093 (samian:activity_loc_pc_2000093)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000094",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000094 (samian:activity_loc_pc_2000094)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000095",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000095 (samian:activity_loc_pc_2000095)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000096",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000096 (samian:activity_loc_pc_2000096)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000097",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000097 (samian:activity_loc_pc_2000097)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000098",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000098 (samian:activity_loc_pc_2000098)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000099",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000099 (samian:activity_loc_pc_2000099)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000100",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000100 (samian:activity_loc_pc_2000100)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000101",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000101 (samian:activity_loc_pc_2000101)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000102",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000102 (samian:activity_loc_pc_2000102)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/activity_loc_pc_2000103",
-        "parent": "http://www.w3.org/ns/prov#Activity",
-        "type": "instance",
-        "text": "activity_loc_pc_2000103 (samian:activity_loc_pc_2000103)",
-        "data": {}
-      },
-      {
-        "id": "http://www.w3.org/ns/prov#Activity",
-        "parent": "#",
-        "type": "class",
-        "text": "Activity (prov:Activity) [103]",
-        "data": {
-          "to": {
-            "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/ns/prov-o/endedAtTime": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/ns/prov-o/startedAtTime": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/ns/prov-o/wasAssociatedWith": {
-              "instancecount": 1
-            }
-          },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
-            },
-            "http://www.w3.org/ns/prov-o/wasGeneratedBy": {
-              "instancecount": 0,
-              "http://archaeology.link/ontology#Location": 1,
-              "http://archaeology.link/ontology#ProductionCentre": 1
-            }
-          }
-        },
-        "instancecount": 5
-      },
-      {
         "id": "http://data.archaeology.link/data/samian/Location_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "type": "featurecollection",
@@ -3109,6 +3109,40 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://data.archaeology.link/data/samian/Activity_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Activity Instances Collection (samian:Activity_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Collection (skos:Collection) [1]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 103,
+              "http://www.w3.org/ns/prov-o/Activity": 103
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 107
+      },
+      {
         "id": "http://data.archaeology.link/data/samian/Point_collection",
         "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "type": "geocollection",
@@ -3136,40 +3170,6 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 103,
               "http://www.opengis.net/ont/sf#Point": 103
-            }
-          },
-          "from": {}
-        },
-        "instancecount": 107
-      },
-      {
-        "id": "http://data.archaeology.link/data/samian/Activity_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Activity Instances Collection (samian:Activity_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://www.w3.org/2004/02/skos/core#Collection",
-        "parent": "#",
-        "type": "collectionclass",
-        "text": "Collection (skos:Collection) [1]",
-        "data": {
-          "to": {
-            "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 103,
-              "http://www.w3.org/ns/prov#Activity": 103
             }
           },
           "from": {}

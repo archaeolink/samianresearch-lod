@@ -30,18 +30,13 @@ var vowlresult={
    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
    "xsd": "http://www.w3.org/2001/XMLSchema#",
    "xml": "http://www.w3.org/XML/1998/namespace",
+   "amt": "http://academic-meta-tool.xyz/vocab#",
    "geosparql": "http://www.opengis.net/ont/geosparql#",
-   "sf": "http://www.opengis.net/ont/sf#",
    "lado": "http://archaeology.link/ontology#",
-   "samian": "http://data.archaeology.link/data/samian/",
-   "wd": "http://www.wikidata.org/entity/",
-   "pelagios": "http://pelagios.github.io/vocab/terms#",
-   "oa": "http://www.w3.org/ns/oa#",
    "prov1": "http://www.w3.org/ns/prov-o/",
-   "relations": "http://pelagios.github.io/vocab/relations#",
-   "cnt": "http://www.w3.org/2011/content#",
-   "pleiades": "http://pleiades.stoa.org/places/",
-   "amt": "http://academic-meta-tool.xyz/vocab#"
+   "samian": "http://data.archaeology.link/data/samian/",
+   "sf": "http://www.opengis.net/ont/sf#",
+   "wd": "http://www.wikidata.org/entity/"
   },
   "baseIris": [
    "https://brickschema.org/schema/Brick#",
@@ -72,18 +67,13 @@ var vowlresult={
    "http://www.w3.org/2000/01/rdf-schema#",
    "http://www.w3.org/2001/XMLSchema#",
    "http://www.w3.org/XML/1998/namespace",
+   "http://academic-meta-tool.xyz/vocab#",
    "http://www.opengis.net/ont/geosparql#",
-   "http://www.opengis.net/ont/sf#",
    "http://archaeology.link/ontology#",
-   "http://data.archaeology.link/data/samian/",
-   "http://www.wikidata.org/entity/",
-   "http://pelagios.github.io/vocab/terms#",
-   "http://www.w3.org/ns/oa#",
    "http://www.w3.org/ns/prov-o/",
-   "http://pelagios.github.io/vocab/relations#",
-   "http://www.w3.org/2011/content#",
-   "http://pleiades.stoa.org/places/",
-   "http://academic-meta-tool.xyz/vocab#"
+   "http://data.archaeology.link/data/samian/",
+   "http://www.opengis.net/ont/sf#",
+   "http://www.wikidata.org/entity/"
   ],
   "languages": []
  },
@@ -917,827 +907,827 @@ var vowlresult={
   },
   {
    "id": 206,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 207,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 208,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 209,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 210,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 211,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 212,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 213,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 214,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 215,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 216,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 217,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 218,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 219,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 220,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 221,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 222,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 223,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 224,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 225,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 226,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 227,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 228,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 229,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 230,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 231,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 232,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 233,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 234,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 235,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 236,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 237,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 238,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 239,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 240,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 241,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 242,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 243,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 244,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 245,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 246,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 247,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 248,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 249,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 250,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 251,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 252,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 253,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 254,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 255,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 256,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 257,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 258,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 259,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 260,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 261,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 262,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 263,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 264,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 265,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 266,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 267,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 268,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 269,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 270,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 271,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 272,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 273,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 274,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 275,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 276,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 277,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 278,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 279,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 280,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 281,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 282,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 283,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 284,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 285,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 286,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 287,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 288,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 289,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 290,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 291,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 292,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 293,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 294,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 295,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 296,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 297,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 298,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 299,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 300,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 301,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 302,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 303,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 304,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 305,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 306,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 307,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 308,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/ns/prov-o/Activity"
   },
   {
    "id": 309,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 310,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 311,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 312,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 313,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 314,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 315,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 316,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 317,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 318,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 319,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 320,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 321,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 322,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 323,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 324,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 325,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 326,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 327,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 328,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 329,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 330,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 331,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 332,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 333,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 334,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 335,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 336,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 337,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 338,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 339,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 340,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 341,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 342,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 343,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 344,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 345,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 346,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 347,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 348,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 349,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 350,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 351,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 352,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 353,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 354,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 355,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 356,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 357,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 358,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 359,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 360,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 361,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 362,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 363,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 364,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 365,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 366,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 367,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 368,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 369,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 370,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 371,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 372,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 373,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 374,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 375,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 376,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 377,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 378,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 379,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 380,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 381,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 382,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 383,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 384,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 385,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 386,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 387,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 388,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 389,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 390,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 391,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 392,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 393,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 394,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 395,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 396,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 397,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 398,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 399,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 400,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 401,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 402,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 403,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 404,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 405,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 406,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 407,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 408,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 409,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 410,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 411,
-   "type": "http://www.w3.org/ns/prov#Activity"
+   "type": "http://www.opengis.net/ont/sf#Point"
   }
  ],
  "propertyAttribute": [
@@ -3184,6 +3174,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q102763431",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3198,14 +3196,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000001",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q102763431",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3261,6 +3251,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135455",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3275,14 +3273,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000002",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135455",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3338,6 +3328,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135459",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3352,14 +3350,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000003",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135459",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3415,6 +3405,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135467",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3429,14 +3427,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000004",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135467",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3492,6 +3482,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135471",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3506,14 +3504,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000005",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135471",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3569,6 +3559,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135475",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3583,14 +3581,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000006",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135475",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3646,6 +3636,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135481",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3660,14 +3658,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000007",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135481",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3723,6 +3713,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135496",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3737,14 +3735,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000008",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135496",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3800,6 +3790,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135500",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3814,14 +3812,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000009",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135500",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3877,6 +3867,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135508",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3891,14 +3889,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000010",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135508",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -3954,6 +3944,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135513",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -3968,14 +3966,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000011",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135513",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4031,6 +4021,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135517",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4045,14 +4043,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000012",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135517",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4108,6 +4098,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135521",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4122,14 +4120,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000013",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135521",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4185,6 +4175,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135526",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4199,14 +4197,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000014",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135526",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4262,6 +4252,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135532",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4276,14 +4274,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000015",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135532",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4339,6 +4329,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135540",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4353,14 +4351,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000016",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135540",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4416,6 +4406,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135546",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4430,14 +4428,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000017",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135546",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4493,6 +4483,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135552",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4507,14 +4505,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000018",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135552",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4570,6 +4560,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135554",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4584,14 +4582,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000019",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135554",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4647,6 +4637,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135559",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4661,14 +4659,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000020",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135559",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4724,6 +4714,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135565",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4738,14 +4736,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000021",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135565",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4801,6 +4791,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135570",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4815,14 +4813,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000022",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135570",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4878,6 +4868,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135575",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4892,14 +4890,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000023",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135575",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -4955,6 +4945,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135580",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -4969,14 +4967,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000024",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135580",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5032,6 +5022,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135582",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5046,14 +5044,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000025",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135582",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5109,6 +5099,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135588",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5123,14 +5121,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000026",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135588",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5186,6 +5176,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135593",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5200,14 +5198,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000027",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135593",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5263,6 +5253,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135600",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5277,14 +5275,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000028",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135600",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5340,6 +5330,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135608",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5354,14 +5352,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000029",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135608",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5417,6 +5407,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135613",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5431,14 +5429,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000030",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135613",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5494,6 +5484,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135618",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5508,14 +5506,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000031",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135618",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5571,6 +5561,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135621",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5585,14 +5583,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000032",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135621",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5648,6 +5638,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135627",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5662,14 +5660,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000033",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135627",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5725,6 +5715,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135630",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5739,14 +5737,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000034",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135630",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5802,6 +5792,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135638",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5816,14 +5814,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000035",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135638",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5879,6 +5869,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135642",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5893,14 +5891,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000036",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135642",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -5956,6 +5946,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135647",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -5970,14 +5968,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000037",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135647",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6033,6 +6023,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135650",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6047,14 +6045,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000038",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135650",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6110,6 +6100,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135658",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6124,14 +6122,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000039",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135658",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6187,6 +6177,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135664",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6201,14 +6199,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000040",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135664",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6264,6 +6254,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135669",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6278,14 +6276,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000041",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135669",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6341,6 +6331,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135673",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6355,14 +6353,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000042",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135673",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6418,6 +6408,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135681",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6432,14 +6430,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000043",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135681",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6495,6 +6485,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135687",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6509,14 +6507,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000044",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135687",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6572,6 +6562,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135692",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6586,14 +6584,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000045",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135692",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6649,6 +6639,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135695",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6663,14 +6661,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000046",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135695",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6726,6 +6716,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135703",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6740,14 +6738,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000047",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135703",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6803,6 +6793,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135708",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6817,14 +6815,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000048",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135708",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6880,6 +6870,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135714",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6894,14 +6892,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000049",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135714",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -6957,6 +6947,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135717",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -6971,14 +6969,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000050",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135717",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7034,6 +7024,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135724",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7048,14 +7046,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000051",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135724",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7111,6 +7101,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135730",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7125,14 +7123,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000052",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135730",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7188,6 +7178,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135734",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7202,14 +7200,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000053",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135734",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7265,6 +7255,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135739",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7279,14 +7277,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000054",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135739",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7342,6 +7332,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135744",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7356,14 +7354,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000055",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135744",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7419,6 +7409,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135749",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7433,14 +7431,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000056",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135749",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7496,6 +7486,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135752",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7510,14 +7508,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000057",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135752",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7573,6 +7563,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135756",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7587,14 +7585,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000058",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135756",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7650,6 +7640,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135761",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7664,14 +7662,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000059",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135761",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7727,6 +7717,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135765",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7741,14 +7739,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000060",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135765",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7804,6 +7794,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135769",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7818,14 +7816,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000061",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135769",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7881,6 +7871,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135773",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7895,14 +7893,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000062",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135773",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -7958,6 +7948,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135778",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -7972,14 +7970,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000063",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135778",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8035,6 +8025,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135784",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8049,14 +8047,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000064",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135784",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8112,6 +8102,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135788",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8126,14 +8124,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000065",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135788",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8189,6 +8179,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135792",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8203,14 +8201,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000066",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135792",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8266,6 +8256,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135797",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8280,14 +8278,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000067",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135797",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8343,6 +8333,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135800",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8357,14 +8355,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000068",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135800",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8420,6 +8410,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135808",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8434,14 +8432,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000069",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135808",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8497,6 +8487,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135811",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8511,14 +8509,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000070",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135811",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8574,6 +8564,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135816",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8588,14 +8586,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000071",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135816",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8651,6 +8641,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135824",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8665,14 +8663,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000072",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135824",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8728,6 +8718,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135828",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8742,14 +8740,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000073",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135828",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8805,6 +8795,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135835",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8819,14 +8817,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000074",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135835",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8882,6 +8872,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135842",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8896,14 +8894,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000075",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135842",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -8959,6 +8949,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135846",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -8973,14 +8971,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000076",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135846",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9036,6 +9026,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135850",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9050,14 +9048,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000077",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135850",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9113,6 +9103,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135855",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9127,14 +9125,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000078",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135855",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9190,6 +9180,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135861",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9204,14 +9202,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000079",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135861",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9267,6 +9257,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135866",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9281,14 +9279,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000080",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135866",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9344,6 +9334,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135880",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9358,14 +9356,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000081",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135880",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9421,6 +9411,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135891",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9435,14 +9433,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000082",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135891",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9498,6 +9488,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135899",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9512,14 +9510,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000083",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135899",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9575,6 +9565,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135906",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9589,14 +9587,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000084",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135906",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9652,6 +9642,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135911",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9666,14 +9664,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000085",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135911",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9729,6 +9719,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135914",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9743,14 +9741,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000086",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135914",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9806,6 +9796,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135920",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9820,14 +9818,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000087",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135920",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9883,6 +9873,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135933",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9897,14 +9895,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000088",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135933",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -9960,6 +9950,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135942",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -9974,14 +9972,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000089",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135942",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10037,6 +10027,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135947",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10051,14 +10049,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000090",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135947",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10114,6 +10104,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135954",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10128,14 +10126,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000091",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135954",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10191,6 +10181,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135960",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10205,14 +10203,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000092",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135960",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10268,6 +10258,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135970",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10282,14 +10280,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000093",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135970",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10345,6 +10335,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103135980",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10359,14 +10357,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000094",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103135980",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10422,6 +10412,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136219",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10436,14 +10434,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000095",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136219",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10499,6 +10489,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136223",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10513,14 +10511,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000096",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136223",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10576,6 +10566,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136227",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10590,14 +10588,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000097",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136227",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10653,6 +10643,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136235",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10667,14 +10665,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000098",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136235",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10730,6 +10720,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136239",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10744,14 +10742,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000099",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136239",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10807,6 +10797,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136244",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10821,14 +10819,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000100",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136244",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10884,6 +10874,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136249",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10898,14 +10896,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000101",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136249",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -10961,6 +10951,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136253",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -10975,14 +10973,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000102",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136253",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -11038,6 +11028,14 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://archaeology.link/ontology#exactMatch": [
+     {
+      "identifier": "http://archaeology.link/ontology#exactMatch",
+      "language": "undefined",
+      "value": "http://www.wikidata.org/entity/Q103136256",
+      "type": "iri"
+     }
+    ],
     "http://archaeology.link/ontology#hasType": [
      {
       "identifier": "http://archaeology.link/ontology#hasType",
@@ -11052,14 +11050,6 @@ var vowlresult={
       "language": "undefined",
       "value": "loc-pc:2000103",
       "type": "label"
-     }
-    ],
-    "http://archaeology.link/ontology#exactMatch": [
-     {
-      "identifier": "http://archaeology.link/ontology#exactMatch",
-      "language": "undefined",
-      "value": "http://www.wikidata.org/entity/Q103136256",
-      "type": "iri"
      }
     ],
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -11109,6 +11099,4023 @@ var vowlresult={
     "IRI-based": "loc_pc_2000103"
    },
    "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.481106+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 206,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000001",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000001"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.481106+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 207,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000002",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000002"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.481106+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 208,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000003",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000003"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 209,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000004",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000004"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 210,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000005",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000005"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 211,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000006",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000006"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 212,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000007",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000007"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 213,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000008",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000008"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 214,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000009",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000009"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 215,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000010",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000010"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 216,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000011",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000011"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 217,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000012",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000012"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 218,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000013",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000013"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 219,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000014",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000014"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 220,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000015",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000015"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 221,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000016",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000016"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 222,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000017",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000017"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 223,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000018",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000018"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 224,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000019",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000019"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 225,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000020",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000020"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 226,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000021",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000021"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 227,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000022",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000022"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 228,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000023",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000023"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 229,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000024",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000024"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 230,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000025",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000025"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 231,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000026",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000026"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 232,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000027",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000027"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 233,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000028",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000028"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 234,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000029",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000029"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 235,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000030",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000030"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 236,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000031",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000031"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 237,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000032",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000032"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 238,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000033",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000033"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 239,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000034",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000034"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 240,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000035",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000035"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 241,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000036",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000036"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 242,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000037",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000037"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 243,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000038",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000038"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 244,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000039",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000039"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 245,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000040",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000040"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 246,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000041",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000041"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 247,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000042",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000042"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 248,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000043",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000043"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 249,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000044",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000044"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 250,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000045",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000045"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 251,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000046",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000046"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 252,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000047",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000047"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 253,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000048",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000048"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 254,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000049",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000049"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 255,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000050",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000050"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 256,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000051",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000051"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 257,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000052",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000052"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 258,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000053",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000053"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 259,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000054",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000054"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 260,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000055",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000055"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.496728+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 261,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000056",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000056"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.504672+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 262,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000057",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000057"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.504672+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 263,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000058",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000058"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.504672+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 264,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000059",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000059"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.504672+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 265,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000060",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000060"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.504672+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 266,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000061",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000061"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.504672+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 267,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000062",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000062"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 268,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000063",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000063"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 269,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000064",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000064"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 270,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000065",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000065"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 271,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000066",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000066"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 272,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000067",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000067"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 273,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000068",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000068"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 274,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000069",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000069"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.505479+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 275,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000070",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000070"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 276,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000071",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000071"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 277,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000072",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000072"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 278,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000073",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000073"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 279,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000074",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000074"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 280,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000075",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000075"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 281,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000076",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000076"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 282,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000077",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000077"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 283,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000078",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000078"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.506595+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 284,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000079",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000079"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.507593+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 285,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000080",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000080"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.507593+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 286,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000081",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000081"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.507593+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 287,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000082",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000082"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.508060+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 288,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000083",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000083"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.508329+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 289,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000084",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000084"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.508329+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 290,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000085",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000085"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.508329+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 291,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000086",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000086"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.508329+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 292,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000087",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000087"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.508329+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 293,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000088",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000088"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.508329+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 294,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000089",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000089"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.509338+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 295,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000090",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000090"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.509338+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 296,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000091",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000091"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.509338+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 297,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000092",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000092"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.509338+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 298,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000093",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000093"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.509338+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 299,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000094",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000094"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.510534+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 300,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000095",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000095"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.510534+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 301,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000096",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000096"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.510534+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 302,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000097",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000097"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.510534+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 303,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000098",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000098"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.510534+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 304,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000099",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000099"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.510534+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 305,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000100",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000100"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.511655+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 306,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000101",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000101"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.511655+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 307,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000102",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000102"
+   },
+   "annotations": {
+    "http://www.w3.org/ns/prov-o/endedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.511655+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/startedAtTime": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
+      "language": "undefined",
+      "value": "2024-03-21T14:54:37.351126+00:00",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
+     {
+      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
+      "language": "undefined",
+      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 308,
+   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000103",
+   "baseIRI": "http://data.archaeology.link/data/samian",
+   "instances": 0,
+   "label": {
+    "IRI-based": "activity_loc_pc_2000103"
+   },
+   "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
       "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
@@ -11124,7 +15131,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 206,
+   "id": 309,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000001_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11147,7 +15154,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 207,
+   "id": 310,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000002_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11170,7 +15177,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 208,
+   "id": 311,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000003_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11193,7 +15200,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 209,
+   "id": 312,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000004_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11216,7 +15223,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 210,
+   "id": 313,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000005_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11239,7 +15246,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 211,
+   "id": 314,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000006_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11262,7 +15269,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 212,
+   "id": 315,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000007_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11285,7 +15292,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 213,
+   "id": 316,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000008_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11308,7 +15315,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 214,
+   "id": 317,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000009_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11331,7 +15338,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 215,
+   "id": 318,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000010_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11354,7 +15361,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 216,
+   "id": 319,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000011_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11377,7 +15384,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 217,
+   "id": 320,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000012_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11400,7 +15407,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 218,
+   "id": 321,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000013_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11423,7 +15430,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 219,
+   "id": 322,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000014_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11446,7 +15453,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 220,
+   "id": 323,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000015_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11469,7 +15476,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 221,
+   "id": 324,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000016_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11492,7 +15499,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 222,
+   "id": 325,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000017_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11515,7 +15522,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 223,
+   "id": 326,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000018_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11538,7 +15545,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 224,
+   "id": 327,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000019_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11561,7 +15568,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 225,
+   "id": 328,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000020_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11584,7 +15591,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 226,
+   "id": 329,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000021_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11607,7 +15614,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 227,
+   "id": 330,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000022_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11630,7 +15637,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 228,
+   "id": 331,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000023_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11653,7 +15660,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 229,
+   "id": 332,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000024_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11676,7 +15683,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 230,
+   "id": 333,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000025_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11699,7 +15706,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 231,
+   "id": 334,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000026_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11722,7 +15729,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 232,
+   "id": 335,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000027_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11745,7 +15752,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 233,
+   "id": 336,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000028_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11768,7 +15775,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 234,
+   "id": 337,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000029_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11791,7 +15798,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 235,
+   "id": 338,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000030_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11814,7 +15821,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 236,
+   "id": 339,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000031_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11837,7 +15844,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 237,
+   "id": 340,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000032_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11860,7 +15867,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 238,
+   "id": 341,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000033_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11883,7 +15890,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 239,
+   "id": 342,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000034_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11906,7 +15913,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 240,
+   "id": 343,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000035_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11929,7 +15936,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 241,
+   "id": 344,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000036_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11952,7 +15959,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 242,
+   "id": 345,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000037_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11975,7 +15982,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 243,
+   "id": 346,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000038_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -11998,7 +16005,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 244,
+   "id": 347,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000039_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12021,7 +16028,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 245,
+   "id": 348,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000040_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12044,7 +16051,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 246,
+   "id": 349,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000041_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12067,7 +16074,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 247,
+   "id": 350,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000042_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12090,7 +16097,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 248,
+   "id": 351,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000043_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12113,7 +16120,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 249,
+   "id": 352,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000044_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12136,7 +16143,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 250,
+   "id": 353,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000045_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12159,7 +16166,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 251,
+   "id": 354,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000046_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12182,7 +16189,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 252,
+   "id": 355,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000047_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12205,7 +16212,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 253,
+   "id": 356,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000048_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12228,7 +16235,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 254,
+   "id": 357,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000049_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12251,7 +16258,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 255,
+   "id": 358,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000050_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12274,7 +16281,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 256,
+   "id": 359,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000051_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12297,7 +16304,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 257,
+   "id": 360,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000052_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12320,7 +16327,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 258,
+   "id": 361,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000053_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12343,7 +16350,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 259,
+   "id": 362,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000054_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12366,7 +16373,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 260,
+   "id": 363,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000055_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12389,7 +16396,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 261,
+   "id": 364,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000056_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12412,7 +16419,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 262,
+   "id": 365,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000057_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12435,7 +16442,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 263,
+   "id": 366,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000058_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12458,7 +16465,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 264,
+   "id": 367,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000059_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12481,7 +16488,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 265,
+   "id": 368,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000060_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12504,7 +16511,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 266,
+   "id": 369,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000061_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12527,7 +16534,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 267,
+   "id": 370,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000062_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12550,7 +16557,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 268,
+   "id": 371,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000063_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12573,7 +16580,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 269,
+   "id": 372,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000064_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12596,7 +16603,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 270,
+   "id": 373,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000065_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12619,7 +16626,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 271,
+   "id": 374,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000066_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12642,7 +16649,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 272,
+   "id": 375,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000067_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12665,7 +16672,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 273,
+   "id": 376,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000068_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12688,7 +16695,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 274,
+   "id": 377,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000069_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12711,7 +16718,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 275,
+   "id": 378,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000070_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12734,7 +16741,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 276,
+   "id": 379,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000071_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12757,7 +16764,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 277,
+   "id": 380,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000072_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12780,7 +16787,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 278,
+   "id": 381,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000073_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12803,7 +16810,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 279,
+   "id": 382,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000074_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12826,7 +16833,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 280,
+   "id": 383,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000075_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12849,7 +16856,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 281,
+   "id": 384,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000076_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12872,7 +16879,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 282,
+   "id": 385,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000077_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12895,7 +16902,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 283,
+   "id": 386,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000078_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12918,7 +16925,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 284,
+   "id": 387,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000079_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12941,7 +16948,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 285,
+   "id": 388,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000080_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12964,7 +16971,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 286,
+   "id": 389,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000081_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -12987,7 +16994,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 287,
+   "id": 390,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000082_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13010,7 +17017,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 288,
+   "id": 391,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000083_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13033,7 +17040,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 289,
+   "id": 392,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000084_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13056,7 +17063,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 290,
+   "id": 393,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000085_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13079,7 +17086,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 291,
+   "id": 394,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000086_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13102,7 +17109,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 292,
+   "id": 395,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000087_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13125,7 +17132,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 293,
+   "id": 396,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000088_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13148,7 +17155,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 294,
+   "id": 397,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000089_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13171,7 +17178,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 295,
+   "id": 398,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000090_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13194,7 +17201,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 296,
+   "id": 399,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000091_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13217,7 +17224,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 297,
+   "id": 400,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000092_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13240,7 +17247,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 298,
+   "id": 401,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000093_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13263,7 +17270,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 299,
+   "id": 402,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000094_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13286,7 +17293,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 300,
+   "id": 403,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000095_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13309,7 +17316,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 301,
+   "id": 404,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000096_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13332,7 +17339,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 302,
+   "id": 405,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000097_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13355,7 +17362,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 303,
+   "id": 406,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000098_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13378,7 +17385,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 304,
+   "id": 407,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000099_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13401,7 +17408,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 305,
+   "id": 408,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000100_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13424,7 +17431,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 306,
+   "id": 409,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000101_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13447,7 +17454,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 307,
+   "id": 410,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000102_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
@@ -13470,4029 +17477,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 308,
+   "id": 411,
    "iri": "http://data.archaeology.link/data/samian/loc_pc_2000103_geom",
    "baseIRI": "http://data.archaeology.link/data/samian",
    "instances": 0,
    "label": {
     "IRI-based": "loc_pc_2000103_geom"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.067023+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 309,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000001",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000001"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.067023+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 310,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000002",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000002"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.067023+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 311,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000003",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000003"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.067023+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 312,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000004",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000004"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.067023+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 313,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000005",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000005"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 314,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000006",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000006"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 315,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000007",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000007"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 316,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000008",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000008"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 317,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000009",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000009"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 318,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000010",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000010"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 319,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000011",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000011"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 320,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000012",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000012"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 321,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000013",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000013"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 322,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000014",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000014"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 323,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000015",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000015"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 324,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000016",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000016"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 325,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000017",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000017"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 326,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000018",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000018"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 327,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000019",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000019"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 328,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000020",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000020"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 329,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000021",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000021"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 330,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000022",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000022"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 331,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000023",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000023"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 332,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000024",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000024"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 333,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000025",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000025"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 334,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000026",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000026"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 335,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000027",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000027"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 336,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000028",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000028"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 337,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000029",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000029"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 338,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000030",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000030"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 339,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000031",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000031"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 340,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000032",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000032"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 341,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000033",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000033"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 342,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000034",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000034"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 343,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000035",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000035"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 344,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000036",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000036"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 345,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000037",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000037"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 346,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000038",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000038"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 347,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000039",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000039"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 348,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000040",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000040"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 349,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000041",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000041"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 350,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000042",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000042"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 351,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000043",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000043"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 352,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000044",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000044"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 353,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000045",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000045"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 354,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000046",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000046"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 355,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000047",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000047"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 356,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000048",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000048"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 357,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000049",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000049"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.070574+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 358,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000050",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000050"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.077696+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 359,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000051",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000051"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.077696+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 360,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000052",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000052"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 361,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000053",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000053"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 362,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000054",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000054"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 363,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000055",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000055"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 364,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000056",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000056"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 365,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000057",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000057"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 366,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000058",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000058"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 367,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000059",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000059"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 368,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000060",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000060"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 369,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000061",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000061"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 370,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000062",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000062"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 371,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000063",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000063"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 372,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000064",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000064"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 373,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000065",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000065"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 374,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000066",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000066"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 375,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000067",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000067"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 376,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000068",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000068"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 377,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000069",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000069"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 378,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000070",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000070"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 379,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000071",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000071"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 380,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000072",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000072"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 381,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000073",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000073"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 382,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000074",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000074"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 383,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000075",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000075"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 384,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000076",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000076"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 385,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000077",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000077"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 386,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000078",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000078"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 387,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000079",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000079"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 388,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000080",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000080"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 389,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000081",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000081"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.078754+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 390,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000082",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000082"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 391,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000083",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000083"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 392,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000084",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000084"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 393,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000085",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000085"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 394,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000086",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000086"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 395,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000087",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000087"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 396,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000088",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000088"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 397,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000089",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000089"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 398,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000090",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000090"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 399,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000091",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000091"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 400,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000092",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000092"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 401,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000093",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000093"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 402,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000094",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000094"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 403,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000095",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000095"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 404,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000096",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000096"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 405,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000097",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000097"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 406,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000098",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000098"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 407,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000099",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000099"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 408,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000100",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000100"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 409,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000101",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000101"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 410,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000102",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000102"
-   },
-   "annotations": {
-    "http://www.w3.org/ns/prov-o/startedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/startedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:49.856172+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/endedAtTime": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/endedAtTime",
-      "language": "undefined",
-      "value": "2024-03-21T10:54:50.086766+00:00",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/prov-o/wasAssociatedWith": [
-     {
-      "identifier": "http://www.w3.org/ns/prov-o/wasAssociatedWith",
-      "language": "undefined",
-      "value": "http://data.archaeology.link/data/samian/ImportPythonScript_Samian",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 411,
-   "iri": "http://data.archaeology.link/data/samian/activity_loc_pc_2000103",
-   "baseIRI": "http://data.archaeology.link/data/samian",
-   "instances": 0,
-   "label": {
-    "IRI-based": "activity_loc_pc_2000103"
    },
    "annotations": {},
    "range": [],

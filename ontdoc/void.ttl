@@ -62,10 +62,10 @@
     void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     void:triples 1 .
 
-<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_www.w3.org_ns_prov_> a void:Linkset ;
-    rdfs:label "Linkset: Linked_Open_Samian_Ware - W3C Provenance Ontology (prov:)"@en ;
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_www.w3.org_ns_prov-o_> a void:Linkset ;
+    rdfs:label "Linkset: Linked_Open_Samian_Ware - prov1:"@en ;
     void:linkPredicate rdf:type ;
-    void:objectsTarget prov: ;
+    void:objectsTarget <http://www.w3.org/ns/prov-o/> ;
     void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     void:triples 103 .
 
@@ -140,8 +140,7 @@
 
 <http://data.archaeology.link/data/samian/prov_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in Linked_Open_Samian_Ware" ;
-    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
-    voaf:occurrences 206 .
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
 
 <http://data.archaeology.link/data/samian/qb_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in Linked_Open_Samian_Ware" ;
@@ -215,7 +214,7 @@
 
 <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Activity> a void:Dataset ;
     rdfs:label "Class Partition: Activity"@en ;
-    void:class prov:Activity ;
+    void:class <http://www.w3.org/ns/prov-o/Activity> ;
     void:entities 103 .
 
 <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Collection> a void:Dataset ;
@@ -465,6 +464,12 @@ org: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
     voaf:usageInDataset org:_Linked_Open_Samian_Ware_occ .
 
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_Linked_Open_Samian_Ware_occ .
+
 sh: a voaf:Vocabulary ;
     rdfs:label "Shapes Constraint Language (SHACL)"@en ;
     vann:preferredNamespacePrefix "sh"^^xsd:string ;
@@ -523,12 +528,6 @@ skos: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
     voaf:usageInDataset skos:_Linked_Open_Samian_Ware_occ .
 
-prov: a voaf:Vocabulary ;
-    rdfs:label "W3C Provenance Ontology"@en ;
-    vann:preferredNamespacePrefix "prov"^^xsd:string ;
-    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
-    voaf:usageInDataset prov:_Linked_Open_Samian_Ware_occ .
-
 <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> a void:Dataset,
         adms:Asset ;
     rdfs:label "Linked_Open_Samian_Ware"@en ;
@@ -538,13 +537,13 @@ prov: a voaf:Vocabulary ;
     vext:averageSubjectIRILength 59 ;
     vext:datatypes 3 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 960 ;
-    vext:distinctLiterals 319 ;
-    vext:distinctRDFNodes 1279 ;
+    vext:distinctIRIReferences 966 ;
+    vext:distinctLiterals 325 ;
+    vext:distinctRDFNodes 1291 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-03-21T13:55:49"^^xsd:dateTime ;
+    dcterms:modified "2024-03-21T13:57:26"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -563,7 +562,7 @@ prov: a voaf:Vocabulary ;
         <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_SpatialObjectCollection> ;
     void:classes 8 ;
     void:dataDump <https://archaeolink.github.io/samianresearch-lod/index.ttl> ;
-    void:distinctObjects 630 ;
+    void:distinctObjects 636 ;
     void:distinctSubjects 316 ;
     void:entities 314 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,

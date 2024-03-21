@@ -40,13 +40,13 @@
     ns1:averageSubjectIRILength 59 ;
     ns1:datatypes 3 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 960 ;
-    ns1:distinctLiterals 319 ;
-    ns1:distinctRDFNodes 1279 ;
+    ns1:distinctIRIReferences 966 ;
+    ns1:distinctLiterals 325 ;
+    ns1:distinctRDFNodes 1291 ;
     ns1:languages 1 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-03-21T13:55:49"^^xsd:dateTime ;
+    dcterms:modified "2024-03-21T13:57:26"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -65,7 +65,7 @@
         <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_SpatialObjectCollection> ;
     void:classes 8 ;
     void:dataDump <https://archaeolink.github.io/samianresearch-lod/index.ttl> ;
-    void:distinctObjects 630 ;
+    void:distinctObjects 636 ;
     void:distinctSubjects 316 ;
     void:entities 314 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,

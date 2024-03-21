@@ -16,27 +16,20 @@ var minivowlresult={
    "uri": "http://archaeology.link/ontology#ProductionCentre"
   },
   {
+   "name": "Activity",
+   "type": "class",
+   "uri": "http://www.w3.org/ns/prov-o/Activity"
+  },
+  {
    "name": "Point",
    "type": "class",
    "uri": "http://www.opengis.net/ont/sf#Point"
-  },
-  {
-   "name": "Activity",
-   "type": "class",
-   "uri": "http://www.w3.org/ns/prov#Activity"
   }
  ],
  "links": [
   {
-   "source": 0,
-   "target": 3,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov-o/wasGeneratedBy"
-  },
-  {
    "source": 1,
-   "target": 3,
+   "target": 2,
    "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/ns/prov-o/wasGeneratedBy"
@@ -44,13 +37,20 @@ var minivowlresult={
   {
    "source": 0,
    "target": 2,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov-o/wasGeneratedBy"
+  },
+  {
+   "source": 1,
+   "target": 3,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 1,
-   "target": 2,
+   "source": 0,
+   "target": 3,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
