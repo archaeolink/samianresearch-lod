@@ -1,0 +1,1708 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.w3.org/ns/solid/terms#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
+        ns1:ListedDocument,
+        ns1:TypeIndex ;
+    rdfs:label "Public Type Index"@en ;
+    rdfs:comment "This Document contains a list of links to other Documents, along with the type of data that is to be included in those Documents"@en ;
+    rdfs:member <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Activity>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Activity_collection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Collection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#FeatureCollection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#GeometryCollection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Location>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Location_collection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Point>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Point_collection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#ProductionCentre>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#ProductionCentre_collection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#SpatialObjectCollection>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000001>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000002>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000003>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000004>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000005>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000006>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000007>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000008>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000009>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000010>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000011>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000012>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000013>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000014>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000015>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000016>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000017>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000018>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000019>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000020>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000021>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000022>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000023>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000024>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000025>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000026>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000027>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000028>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000029>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000030>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000031>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000032>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000033>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000034>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000035>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000036>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000037>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000038>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000039>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000040>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000041>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000042>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000043>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000044>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000045>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000046>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000047>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000048>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000049>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000050>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000051>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000052>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000053>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000054>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000055>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000056>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000057>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000058>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000059>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000060>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000061>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000062>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000063>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000064>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000065>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000066>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000067>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000068>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000069>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000070>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000071>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000072>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000073>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000074>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000075>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000076>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000077>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000078>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000079>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000080>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000081>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000082>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000083>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000084>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000085>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000086>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000087>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000088>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000089>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000090>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000091>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000092>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000093>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000094>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000095>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000096>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000097>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000098>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000099>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000100>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000101>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000102>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000103>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000001_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000001_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000001_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000002_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000002_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000002_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000003_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000003_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000003_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000004_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000004_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000004_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000005_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000005_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000005_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000006_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000006_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000006_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000007_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000007_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000007_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000008_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000008_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000008_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000009_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000009_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000009_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000010_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000010_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000010_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000011_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000011_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000011_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000012_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000012_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000012_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000013_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000013_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000013_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000014_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000014_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000014_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000015_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000015_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000015_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000016_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000016_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000016_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000017_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000017_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000017_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000018_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000018_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000018_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000019_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000019_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000019_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000020_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000020_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000020_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000021_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000021_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000021_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000022_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000022_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000022_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000023_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000023_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000023_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000024_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000024_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000024_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000025_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000025_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000025_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000026_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000026_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000026_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000027_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000027_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000027_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000028_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000028_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000028_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000029_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000029_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000029_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000030_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000030_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000030_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000031_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000031_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000031_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000032_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000032_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000032_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000033_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000033_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000033_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000034_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000034_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000034_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000035_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000035_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000035_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000036_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000036_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000036_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000037_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000037_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000037_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000038_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000038_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000038_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000039_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000039_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000039_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000040_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000040_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000040_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000041_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000041_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000041_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000042_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000042_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000042_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000043_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000043_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000043_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000044_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000044_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000044_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000045_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000045_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000045_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000046_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000046_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000046_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000047_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000047_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000047_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000048_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000048_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000048_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000049_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000049_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000049_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000050_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000050_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000050_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000051_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000051_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000051_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000052_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000052_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000052_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000053_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000053_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000053_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000054_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000054_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000054_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000055_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000055_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000055_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000056_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000056_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000056_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000057_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000057_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000057_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000058_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000058_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000058_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000059_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000059_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000059_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000060_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000060_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000060_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000061_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000061_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000061_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000062_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000062_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000062_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000063_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000063_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000063_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000064_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000064_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000064_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000065_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000065_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000065_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000066_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000066_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000066_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000067_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000067_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000067_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000068_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000068_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000068_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000069_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000069_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000069_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000070_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000070_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000070_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000071_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000071_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000071_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000072_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000072_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000072_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000073_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000073_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000073_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000074_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000074_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000074_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000075_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000075_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000075_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000076_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000076_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000076_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000077_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000077_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000077_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000078_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000078_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000078_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000079_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000079_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000079_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000080_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000080_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000080_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000081_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000081_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000081_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000082_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000082_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000082_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000083_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000083_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000083_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000084_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000084_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000084_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000085_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000085_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000085_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000086_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000086_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000086_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000087_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000087_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000087_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000088_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000088_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000088_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000089_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000089_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000089_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000090_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000090_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000090_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000091_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000091_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000091_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000092_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000092_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000092_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000093_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000093_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000093_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000094_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000094_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000094_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000095_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000095_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000095_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000096_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000096_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000096_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000097_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000097_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000097_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000098_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000098_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000098_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000099_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000099_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000099_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000100_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000100_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000100_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000101_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000101_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000101_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000102_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000102_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000102_suniv1_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000103_geom>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000103_suniv0_>,
+        <https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000103_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Activity> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/Activity> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Activity_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/Activity_collection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Collection> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/Collection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#FeatureCollection> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/FeatureCollection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/GeometryCollection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Location> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/Location> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Location_collection> ns1:forClass geo:FeatureCollection ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/Location_collection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Point> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/Point> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#Point_collection> ns1:forClass geo:GeometryCollection ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/Point_collection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#ProductionCentre> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/ProductionCentre> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#ProductionCentre_collection> ns1:forClass geo:FeatureCollection ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/ProductionCentre_collection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#SpatialObjectCollection> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/SpatialObjectCollection> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000001> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000001> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000002> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000002> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000003> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000003> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000004> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000004> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000005> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000005> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000006> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000006> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000007> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000007> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000008> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000008> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000009> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000009> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000010> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000010> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000011> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000011> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000012> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000012> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000013> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000013> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000014> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000014> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000015> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000015> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000016> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000016> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000017> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000017> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000018> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000018> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000019> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000019> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000020> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000020> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000021> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000021> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000022> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000022> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000023> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000023> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000024> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000024> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000025> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000025> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000026> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000026> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000027> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000027> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000028> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000028> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000029> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000029> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000030> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000030> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000031> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000031> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000032> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000032> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000033> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000033> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000034> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000034> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000035> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000035> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000036> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000036> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000037> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000037> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000038> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000038> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000039> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000039> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000040> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000040> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000041> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000041> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000042> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000042> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000043> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000043> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000044> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000044> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000045> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000045> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000046> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000046> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000047> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000047> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000048> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000048> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000049> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000049> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000050> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000050> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000051> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000051> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000052> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000052> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000053> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000053> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000054> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000054> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000055> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000055> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000056> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000056> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000057> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000057> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000058> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000058> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000059> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000059> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000060> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000060> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000061> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000061> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000062> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000062> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000063> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000063> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000064> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000064> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000065> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000065> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000066> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000066> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000067> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000067> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000068> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000068> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000069> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000069> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000070> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000070> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000071> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000071> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000072> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000072> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000073> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000073> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000074> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000074> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000075> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000075> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000076> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000076> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000077> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000077> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000078> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000078> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000079> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000079> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000080> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000080> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000081> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000081> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000082> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000082> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000083> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000083> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000084> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000084> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000085> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000085> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000086> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000086> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000087> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000087> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000088> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000088> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000089> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000089> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000090> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000090> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000091> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000091> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000092> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000092> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000093> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000093> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000094> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000094> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000095> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000095> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000096> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000096> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000097> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000097> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000098> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000098> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000099> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000099> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000100> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000100> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000101> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000101> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000102> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000102> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#activity_loc_pc_2000103> ns1:forClass prov:Activity ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/activity_loc_pc_2000103> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000001_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000001_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000001_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000001_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000001_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000001_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000002_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000002_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000002_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000002_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000002_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000002_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000003_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000003_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000003_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000003_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000003_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000003_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000004_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000004_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000004_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000004_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000004_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000004_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000005_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000005_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000005_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000005_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000005_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000005_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000006_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000006_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000006_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000006_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000006_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000006_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000007_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000007_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000007_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000007_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000007_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000007_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000008_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000008_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000008_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000008_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000008_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000008_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000009_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000009_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000009_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000009_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000009_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000009_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000010_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000010_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000010_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000010_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000010_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000010_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000011_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000011_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000011_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000011_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000011_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000011_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000012_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000012_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000012_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000012_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000012_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000012_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000013_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000013_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000013_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000013_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000013_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000013_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000014_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000014_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000014_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000014_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000014_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000014_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000015_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000015_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000015_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000015_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000015_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000015_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000016_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000016_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000016_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000016_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000016_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000016_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000017_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000017_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000017_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000017_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000017_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000017_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000018_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000018_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000018_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000018_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000018_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000018_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000019_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000019_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000019_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000019_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000019_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000019_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000020_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000020_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000020_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000020_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000020_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000020_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000021_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000021_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000021_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000021_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000021_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000021_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000022_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000022_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000022_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000022_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000022_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000022_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000023_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000023_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000023_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000023_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000023_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000023_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000024_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000024_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000024_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000024_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000024_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000024_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000025_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000025_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000025_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000025_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000025_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000025_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000026_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000026_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000026_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000026_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000026_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000026_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000027_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000027_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000027_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000027_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000027_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000027_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000028_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000028_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000028_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000028_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000028_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000028_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000029_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000029_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000029_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000029_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000029_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000029_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000030_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000030_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000030_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000030_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000030_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000030_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000031_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000031_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000031_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000031_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000031_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000031_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000032_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000032_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000032_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000032_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000032_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000032_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000033_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000033_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000033_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000033_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000033_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000033_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000034_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000034_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000034_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000034_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000034_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000034_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000035_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000035_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000035_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000035_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000035_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000035_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000036_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000036_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000036_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000036_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000036_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000036_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000037_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000037_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000037_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000037_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000037_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000037_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000038_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000038_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000038_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000038_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000038_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000038_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000039_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000039_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000039_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000039_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000039_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000039_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000040_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000040_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000040_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000040_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000040_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000040_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000041_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000041_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000041_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000041_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000041_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000041_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000042_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000042_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000042_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000042_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000042_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000042_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000043_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000043_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000043_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000043_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000043_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000043_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000044_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000044_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000044_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000044_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000044_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000044_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000045_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000045_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000045_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000045_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000045_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000045_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000046_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000046_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000046_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000046_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000046_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000046_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000047_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000047_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000047_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000047_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000047_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000047_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000048_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000048_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000048_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000048_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000048_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000048_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000049_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000049_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000049_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000049_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000049_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000049_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000050_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000050_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000050_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000050_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000050_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000050_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000051_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000051_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000051_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000051_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000051_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000051_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000052_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000052_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000052_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000052_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000052_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000052_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000053_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000053_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000053_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000053_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000053_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000053_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000054_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000054_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000054_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000054_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000054_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000054_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000055_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000055_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000055_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000055_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000055_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000055_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000056_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000056_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000056_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000056_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000056_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000056_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000057_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000057_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000057_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000057_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000057_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000057_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000058_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000058_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000058_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000058_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000058_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000058_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000059_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000059_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000059_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000059_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000059_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000059_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000060_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000060_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000060_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000060_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000060_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000060_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000061_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000061_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000061_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000061_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000061_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000061_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000062_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000062_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000062_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000062_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000062_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000062_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000063_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000063_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000063_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000063_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000063_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000063_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000064_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000064_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000064_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000064_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000064_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000064_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000065_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000065_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000065_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000065_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000065_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000065_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000066_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000066_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000066_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000066_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000066_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000066_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000067_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000067_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000067_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000067_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000067_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000067_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000068_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000068_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000068_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000068_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000068_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000068_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000069_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000069_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000069_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000069_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000069_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000069_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000070_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000070_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000070_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000070_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000070_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000070_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000071_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000071_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000071_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000071_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000071_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000071_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000072_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000072_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000072_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000072_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000072_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000072_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000073_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000073_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000073_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000073_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000073_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000073_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000074_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000074_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000074_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000074_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000074_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000074_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000075_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000075_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000075_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000075_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000075_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000075_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000076_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000076_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000076_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000076_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000076_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000076_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000077_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000077_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000077_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000077_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000077_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000077_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000078_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000078_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000078_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000078_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000078_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000078_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000079_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000079_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000079_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000079_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000079_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000079_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000080_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000080_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000080_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000080_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000080_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000080_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000081_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000081_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000081_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000081_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000081_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000081_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000082_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000082_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000082_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000082_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000082_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000082_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000083_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000083_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000083_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000083_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000083_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000083_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000084_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000084_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000084_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000084_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000084_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000084_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000085_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000085_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000085_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000085_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000085_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000085_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000086_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000086_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000086_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000086_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000086_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000086_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000087_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000087_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000087_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000087_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000087_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000087_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000088_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000088_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000088_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000088_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000088_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000088_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000089_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000089_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000089_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000089_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000089_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000089_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000090_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000090_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000090_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000090_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000090_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000090_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000091_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000091_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000091_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000091_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000091_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000091_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000092_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000092_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000092_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000092_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000092_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000092_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000093_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000093_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000093_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000093_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000093_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000093_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000094_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000094_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000094_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000094_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000094_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000094_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000095_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000095_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000095_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000095_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000095_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000095_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000096_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000096_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000096_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000096_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000096_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000096_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000097_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000097_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000097_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000097_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000097_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000097_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000098_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000098_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000098_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000098_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000098_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000098_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000099_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000099_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000099_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000099_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000099_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000099_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000100_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000100_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000100_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000100_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000100_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000100_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000101_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000101_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000101_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000101_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000101_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000101_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000102_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000102_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000102_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000102_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000102_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000102_suniv1_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000103_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000103_geom> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000103_suniv0_> ns1:forClass <http://archaeology.link/ontology#Location> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000103_suniv0_> .
+
+<https://archaeolink.github.io/samianresearch-lod/settings/publicTypeIndex.ttl#loc_pc_2000103_suniv1_> ns1:forClass <http://archaeology.link/ontology#ProductionCentre> ;
+    ns1:instance <https://archaeolink.github.io/samianresearch-lod/loc_pc_2000103_suniv1_> .
+

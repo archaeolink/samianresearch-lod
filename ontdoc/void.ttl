@@ -1,0 +1,629 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_archaeology.link_ontology_> a void:Linkset ;
+    rdfs:label "Linkset: Linked_Open_Samian_Ware - lado:"@en ;
+    void:linkPredicate <http://academic-meta-tool.xyz/vocab#instanceOf>,
+        <http://archaeology.link/ontology#hasType>,
+        rdf:type ;
+    void:objectsTarget <http://archaeology.link/ontology#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    void:triples 103,
+        206 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_www.opengis.net_ont_geosparql_> a void:Linkset ;
+    rdfs:label "Linkset: Linked_Open_Samian_Ware - The GeoSPARQL Ontology (gsp:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    void:triples 3 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_www.opengis.net_ont_sf_> a void:Linkset ;
+    rdfs:label "Linkset: Linked_Open_Samian_Ware - Simple Features Vocabulary (sf:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: Linked_Open_Samian_Ware - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_www.w3.org_ns_prov_> a void:Linkset ;
+    rdfs:label "Linkset: Linked_Open_Samian_Ware - W3C Provenance Ontology (prov:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget prov: ;
+    void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_www.wikidata.org_entity_> a void:Linkset ;
+    rdfs:label "Linkset: Linked_Open_Samian_Ware - Wikidata Entities (wde:)"@en ;
+    void:linkPredicate <http://archaeology.link/ontology#exactMatch>,
+        <http://www.w3.org/ns/prov-o/wasDerivedFrom> ;
+    void:objectsTarget <http://www.wikidata.org/entity/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/adms_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/brick_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/csvw_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/dc_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/dcam_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/dcat_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/dcmitype_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/dcterms_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/doap_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/foaf_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/geo_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    voaf:occurrences 6 .
+
+<http://data.archaeology.link/data/samian/odrl_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/org_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/owl_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/prof_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/prov_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    voaf:occurrences 206 .
+
+<http://data.archaeology.link/data/samian/qb_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/rdf_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/rdfs_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/schema_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/sh_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/skos_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
+    voaf:occurrences 2 .
+
+<http://data.archaeology.link/data/samian/sosa_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/ssn_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/time_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/vann_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/vext_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/voaf_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/void_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/wgs_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/xml_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/xsd_Linked_Open_Samian_Ware_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in Linked_Open_Samian_Ware" ;
+    voaf:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<https://github.com/archaeolink/samianresearch-lod> a adms:AssetRepository ;
+    rdfs:label "Repository for Linked_Open_Samian_Ware"@en ;
+    dcat:accessURL "https://github.com/archaeolink/samianresearch-lod"^^xsd:anyURI ;
+    dcat:dataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Activity> a void:Dataset ;
+    rdfs:label "Class Partition: Activity"@en ;
+    void:class prov:Activity ;
+    void:entities 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class skos:Collection ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_FeatureCollection> a void:Dataset ;
+    rdfs:label "Class Partition: FeatureCollection"@en ;
+    void:class geo:FeatureCollection ;
+    void:entities 2 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_GeometryCollection> a void:Dataset ;
+    rdfs:label "Class Partition: GeometryCollection"@en ;
+    void:class geo:GeometryCollection ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Location> a void:Dataset ;
+    rdfs:label "Class Partition: Location"@en ;
+    void:class <http://archaeology.link/ontology#Location> ;
+    void:entities 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Point> a void:Dataset ;
+    rdfs:label "Class Partition: Point"@en ;
+    void:class <http://www.opengis.net/ont/sf#Point> ;
+    void:entities 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_ProductionCentre> a void:Dataset ;
+    rdfs:label "Class Partition: ProductionCentre"@en ;
+    void:class <http://archaeology.link/ontology#ProductionCentre> ;
+    void:entities 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
+    void:class geo:SpatialObjectCollection .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_asWKT> a void:Dataset ;
+    rdfs:label "Property Partition: asWKT"@en ;
+    void:property geo:asWKT ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "Linked_Open_Samian_Ware TTL Distribution"@en ;
+    dcat:downloadURL "https://archaeolink.github.io/samianresearch-lod/index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_endedAtTime> a void:Dataset ;
+    rdfs:label "Property Partition: endedAtTime"@en ;
+    void:property <http://www.w3.org/ns/prov-o/endedAtTime> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_exactMatch> a void:Dataset ;
+    rdfs:label "Property Partition: exactMatch"@en ;
+    void:property <http://archaeology.link/ontology#exactMatch> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_hasGeometry> a void:Dataset ;
+    rdfs:label "Property Partition: hasGeometry"@en ;
+    void:property geo:hasGeometry ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_hasType> a void:Dataset ;
+    rdfs:label "Property Partition: hasType"@en ;
+    void:property <http://archaeology.link/ontology#hasType> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_identifier> a void:Dataset ;
+    rdfs:label "Property Partition: identifier"@en ;
+    void:property dc:identifier ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_instanceOf> a void:Dataset ;
+    rdfs:label "Property Partition: instanceOf"@en ;
+    void:property <http://academic-meta-tool.xyz/vocab#instanceOf> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_startedAtTime> a void:Dataset ;
+    rdfs:label "Property Partition: startedAtTime"@en ;
+    void:property <http://www.w3.org/ns/prov-o/startedAtTime> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 412 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasAssociatedWith> a void:Dataset ;
+    rdfs:label "Property Partition: wasAssociatedWith"@en ;
+    void:property <http://www.w3.org/ns/prov-o/wasAssociatedWith> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasAttributedTo> a void:Dataset ;
+    rdfs:label "Property Partition: wasAttributedTo"@en ;
+    void:property <http://www.w3.org/ns/prov-o/wasAttributedTo> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasDerivedFrom> a void:Dataset ;
+    rdfs:label "Property Partition: wasDerivedFrom"@en ;
+    void:property <http://www.w3.org/ns/prov-o/wasDerivedFrom> ;
+    void:triples 103 .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasGeneratedBy> a void:Dataset ;
+    rdfs:label "Property Partition: wasGeneratedBy"@en ;
+    void:property <http://www.w3.org/ns/prov-o/wasGeneratedBy> ;
+    void:triples 103 .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_Linked_Open_Samian_Ware_occ .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_Linked_Open_Samian_Ware_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_Linked_Open_Samian_Ware_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_Linked_Open_Samian_Ware_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_Linked_Open_Samian_Ware_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_Linked_Open_Samian_Ware_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_Linked_Open_Samian_Ware_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_Linked_Open_Samian_Ware_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_Linked_Open_Samian_Ware_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_Linked_Open_Samian_Ware_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_Linked_Open_Samian_Ware_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_Linked_Open_Samian_Ware_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_Linked_Open_Samian_Ware_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_Linked_Open_Samian_Ware_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_Linked_Open_Samian_Ware_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_Linked_Open_Samian_Ware_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_Linked_Open_Samian_Ware_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_Linked_Open_Samian_Ware_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_Linked_Open_Samian_Ware_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_Linked_Open_Samian_Ware_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_Linked_Open_Samian_Ware_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_Linked_Open_Samian_Ware_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_Linked_Open_Samian_Ware_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_Linked_Open_Samian_Ware_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_Linked_Open_Samian_Ware_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_Linked_Open_Samian_Ware_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_Linked_Open_Samian_Ware_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_Linked_Open_Samian_Ware_occ .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_Linked_Open_Samian_Ware_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_Linked_Open_Samian_Ware_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_Linked_Open_Samian_Ware_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_Linked_Open_Samian_Ware_occ .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "Linked_Open_Samian_Ware"@en ;
+    vext:averageLiteralLength 31 ;
+    vext:averageObjectIRILength 53 ;
+    vext:averagePropertyIRILength 43 ;
+    vext:averageSubjectIRILength 59 ;
+    vext:datatypes 3 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 960 ;
+    vext:distinctLiterals 319 ;
+    vext:distinctRDFNodes 1279 ;
+    vext:languages 1 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-03-21T12:00:29"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "Linked_Open_Samian_Ware"@en ;
+    vann:preferredNamespacePrefix "samian"^^xsd:string ;
+    vann:preferredNamespaceUri "http://data.archaeology.link/data/samian/"^^xsd:anyURI ;
+    void:classPartition <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Activity>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Collection>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_FeatureCollection>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_GeometryCollection>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Location>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Point>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_ProductionCentre>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_SpatialObjectCollection> ;
+    void:classes 8 ;
+    void:dataDump <https://archaeolink.github.io/samianresearch-lod/index.ttl> ;
+    void:distinctObjects 630 ;
+    void:distinctSubjects 316 ;
+    void:entities 314 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 14 ;
+    void:propertyPartition <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_asWKT>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_endedAtTime>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_exactMatch>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_hasGeometry>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_hasType>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_identifier>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_instanceOf>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_label>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_startedAtTime>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_type>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasAssociatedWith>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasAttributedTo>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasDerivedFrom>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasGeneratedBy> ;
+    void:triples 2487 ;
+    void:uriSpace "http://data.archaeology.link/data/samian/"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://archaeolink.github.io/samianresearch-lod> ;
+    foaf:homepage <https://archaeolink.github.io/samianresearch-lod> ;
+    foaf:page <https://archaeolink.github.io/samianresearch-lod/index.html> .
+

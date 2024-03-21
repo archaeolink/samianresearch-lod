@@ -1,0 +1,131 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linked_Open_Samian_Ware"@en ;
+    ns1:averageLiteralLength 31 ;
+    ns1:averageObjectIRILength 53 ;
+    ns1:averagePropertyIRILength 43 ;
+    ns1:averageSubjectIRILength 59 ;
+    ns1:datatypes 3 ;
+    ns1:distinctBlankNodes 0 ;
+    ns1:distinctIRIReferences 960 ;
+    ns1:distinctLiterals 319 ;
+    ns1:distinctRDFNodes 1279 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-03-21T12:00:29"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "Linked_Open_Samian_Ware"@en ;
+    vann:preferredNamespacePrefix "samian"^^xsd:string ;
+    vann:preferredNamespaceUri "http://data.archaeology.link/data/samian/"^^xsd:anyURI ;
+    void:classPartition <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Activity>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Collection>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_FeatureCollection>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_GeometryCollection>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Location>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_Point>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_ProductionCentre>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_SpatialObjectCollection> ;
+    void:classes 8 ;
+    void:dataDump <https://archaeolink.github.io/samianresearch-lod/index.ttl> ;
+    void:distinctObjects 630 ;
+    void:distinctSubjects 316 ;
+    void:entities 314 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 14 ;
+    void:propertyPartition <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_asWKT>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_endedAtTime>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_exactMatch>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_hasGeometry>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_hasType>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_identifier>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_instanceOf>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_label>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_startedAtTime>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_type>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasAssociatedWith>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasAttributedTo>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasDerivedFrom>,
+        <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasGeneratedBy> ;
+    void:triples 2487 ;
+    void:uriSpace "http://data.archaeology.link/data/samian/"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://archaeolink.github.io/samianresearch-lod> ;
+    foaf:homepage <https://archaeolink.github.io/samianresearch-lod> ;
+    foaf:page <https://archaeolink.github.io/samianresearch-lod/index.html> .
+
