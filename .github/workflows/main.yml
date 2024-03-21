@@ -16,7 +16,6 @@ jobs:
           indexpages: true
           metadatatable: false
           createcollections: true
-          createnonNSPages: false
           createVOWL: false
           preferredlang: en
           ghpages: true
