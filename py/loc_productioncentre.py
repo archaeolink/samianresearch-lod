@@ -18,6 +18,7 @@ import codecs
 import datetime
 import importlib  # py3
 import sys
+from rdflib import Graph
 
 # set UTF8 as default
 importlib.reload(sys)  # py3
@@ -72,7 +73,7 @@ for index, row in data.iterrows():
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "prov:wasAttributedTo" + " samian:ImportPythonScript_Samian .")
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "prov:wasDerivedFrom" + " <http://www.wikidata.org/entity/Q90412636> .")
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "prov:wasGeneratedBy" + " samian:activity_loc_pc_" + str(row['id']) + " .")
-    lines.append("samian:activity_loc_pc_" + str(row['id']) + " " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("samian:activity_loc_pc_" + str(row['id']) + " " + "rdf:type" + " prov:Activity .")
     lines.append("samian:activity_loc_pc_" + str(row['id']) + " " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
     lines.append("samian:activity_loc_pc_" + str(row['id']) + " " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("samian:activity_loc_pc_" + str(row['id']) + " " + "prov:wasAssociatedWith" + " samian:ImportPythonScript_Samian .")
@@ -108,6 +109,12 @@ for x in range(1, int(files) + 1):
     f = f + step
     print("Yuhu! > " + fileprefix + strX + ".ttl")
     file.close()
+
+# format rdf to nice turtle
+g = Graph()
+filename_tmp = dir_path.replace("\\py", "\\ttl") + "\\" + "loc_productioncentre_1.ttl"
+g.parse(filename_tmp)
+g.serialize(destination=filename_tmp)
 
 print("*****************************************")
 print("SUCCESS")
