@@ -1374,13 +1374,13 @@ var namespaces={"rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","xsd":"http:
                 for(resitem in result[res]){
                     if(!(nodetype.includes("class"))) {
                         if ((result[res][resitem] + "").trim().startsWith("http")) {
-                            dialogcontent += "<li><a href="" + rewriteLink(result[res][resitem]) + "" target="_blank">" + shortenURI(result[res][resitem]) + "</a> [" + result[res][resitem] + "]</li>"
+                            dialogcontent += "<li><a href=\"" + rewriteLink(result[res][resitem]) + "\" target=\"_blank\">" + shortenURI(result[res][resitem]) + "</a> [" + result[res][resitem] + "]</li>"
                         } else if (resitem != "instancecount") {
                             dialogcontent += "<li>" + result[res][resitem] + "</li>"
                         }
                     }else{
                         if ((resitem+ "").trim().startsWith("http")) {
-                            dialogcontent += "<li><a href="" + rewriteLink(resitem) + "" target="_blank">" + shortenURI(resitem) + "</a></li>"
+                            dialogcontent += "<li><a href=\"" + rewriteLink(resitem) + "\" target=\"_blank\">" + shortenURI(resitem) + "</a></li>"
                         } else if (resitem != "instancecount") {
                             dialogcontent += "<li>" + result[res][resitem] + "</li>"
                         }
@@ -1393,9 +1393,9 @@ var namespaces={"rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#","xsd":"http:
                 dialogcontent+="</td>"        
             }else if((Object.keys(result[res])[0]+"").startsWith("http") || (result[res][Object.keys(result[res])[0]]+"").startsWith("http")){
                 if(!(nodetype.includes("class"))) {
-                    dialogcontent+="<td><a href=""+rewriteLink(result[res][Object.keys(result[res])[0]]+"")+"" target="_blank">"+shortenURI(result[res][Object.keys(result[res])[0]]+"")+"</a></td>"
+                    dialogcontent+="<td><a href=\""+rewriteLink(result[res][Object.keys(result[res])[0]]+"")+"\" target=\"_blank\">"+shortenURI(result[res][Object.keys(result[res])[0]]+"")+"</a></td>"
                 }else{
-                    dialogcontent+="<td><a href=""+rewriteLink(Object.keys(result[res])[0]+"")+"" target="_blank">"+shortenURI(Object.keys(result[res])[0]+"")+"</a></td>"
+                    dialogcontent+="<td><a href=\""+rewriteLink(Object.keys(result[res])[0]+"")+"\" target=\"_blank\">"+shortenURI(Object.keys(result[res])[0]+"")+"</a></td>"
                 }
             }else if(Object.keys(result[res])[0]!="instancecount"){
                 if(!(nodetype.includes("class"))) {
