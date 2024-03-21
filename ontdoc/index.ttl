@@ -10,8 +10,8 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.w3.org/ns/prov-o/> .
 @prefix ns2: <http://archaeology.link/ontology#> .
-@prefix ns3: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns4: <http://ldf.fi/void-ext#> .
+@prefix ns3: <http://ldf.fi/void-ext#> .
+@prefix ns4: <http://academic-meta-tool.xyz/vocab#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -147,7 +147,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: Linked_Open_Samian_Ware - lado:"@en ;
-    void:linkPredicate ns3:instanceOf,
+    void:linkPredicate ns4:instanceOf,
         ns2:hasType,
         rdf:type ;
     void:objectsTarget ns2: ;
@@ -589,7 +589,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: instanceOf"@en ;
-    void:property ns3:instanceOf ;
+    void:property ns4:instanceOf ;
     void:triples 103 .
 
 <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_label> a void:Dataset,
@@ -1581,7 +1581,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "La Graufesenque"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q102763431> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000001"^^xsd:string ;
@@ -1604,7 +1604,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Banassac"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135455> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000002"^^xsd:string ;
@@ -1627,7 +1627,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Le Rozier"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135459> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000003"^^xsd:string ;
@@ -1650,7 +1650,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Carrade"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135467> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000004"^^xsd:string ;
@@ -1673,7 +1673,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Crambade"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135471> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000005"^^xsd:string ;
@@ -1696,7 +1696,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Espalion"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135475> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000006"^^xsd:string ;
@@ -1719,7 +1719,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Jonquières, Saint Saturnin"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135481> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000007"^^xsd:string ;
@@ -1742,7 +1742,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Aspiran"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135496> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000008"^^xsd:string ;
@@ -1765,7 +1765,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Narbonne"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135500> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000009"^^xsd:string ;
@@ -1788,7 +1788,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bram"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135508> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000010"^^xsd:string ;
@@ -1811,7 +1811,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Montans"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135513> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000011"^^xsd:string ;
@@ -1834,7 +1834,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Saint-Sauveur"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135517> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000012"^^xsd:string ;
@@ -1857,7 +1857,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Valéry"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135521> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000013"^^xsd:string ;
@@ -1880,7 +1880,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cournon"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135526> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000014"^^xsd:string ;
@@ -1903,7 +1903,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Gueugnon"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135532> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000015"^^xsd:string ;
@@ -1926,7 +1926,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lezoux"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135540> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000016"^^xsd:string ;
@@ -1949,7 +1949,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lubié"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135546> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000017"^^xsd:string ;
@@ -1972,7 +1972,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Les Martres-de-Veyre"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135552> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000018"^^xsd:string ;
@@ -1995,7 +1995,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Mougon"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135554> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000019"^^xsd:string ;
@@ -2018,7 +2018,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Nouâtre"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135559> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000020"^^xsd:string ;
@@ -2041,7 +2041,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Toulon-sur-Allier"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135565> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000021"^^xsd:string ;
@@ -2064,7 +2064,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Vichy, Terre Franche"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135570> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000022"^^xsd:string ;
@@ -2087,7 +2087,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Aachen"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135575> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000023"^^xsd:string ;
@@ -2110,7 +2110,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Avocourt"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135580> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000024"^^xsd:string ;
@@ -2133,7 +2133,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Baden"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135582> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000025"^^xsd:string ;
@@ -2156,7 +2156,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bern"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135588> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000026"^^xsd:string ;
@@ -2179,7 +2179,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Blickweiler"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135593> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000027"^^xsd:string ;
@@ -2202,7 +2202,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bliesbruck"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135600> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000028"^^xsd:string ;
@@ -2225,7 +2225,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Boucheporn"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135608> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000029"^^xsd:string ;
@@ -2248,7 +2248,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Chémery-Faulquemont"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135613> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000030"^^xsd:string ;
@@ -2271,7 +2271,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Eincheville"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135618> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000031"^^xsd:string ;
@@ -2294,7 +2294,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Eschweilerhof"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135621> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000032"^^xsd:string ;
@@ -2317,7 +2317,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Haute-Yutz"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135627> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000033"^^xsd:string ;
@@ -2340,7 +2340,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Heiligenberg"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135630> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000034"^^xsd:string ;
@@ -2363,7 +2363,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Horbourg"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135638> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000035"^^xsd:string ;
@@ -2386,7 +2386,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ittenwiller"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135642> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000036"^^xsd:string ;
@@ -2409,7 +2409,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Jaulges-Villiers-Vineux"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135647> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000037"^^xsd:string ;
@@ -2432,7 +2432,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "La Madeleine"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135650> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000038"^^xsd:string ;
@@ -2455,7 +2455,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lavoye"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135658> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000039"^^xsd:string ;
@@ -2478,7 +2478,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lehen"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135664> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000040"^^xsd:string ;
@@ -2501,7 +2501,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Le Pont des Rèmes"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135669> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000041"^^xsd:string ;
@@ -2524,7 +2524,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Les Allieux"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135673> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000042"^^xsd:string ;
@@ -2547,7 +2547,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Luxeuil-les-Bains"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135681> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000043"^^xsd:string ;
@@ -2570,7 +2570,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Mittelbronn"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135687> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000044"^^xsd:string ;
@@ -2593,7 +2593,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Nürtingen"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135692> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000045"^^xsd:string ;
@@ -2616,7 +2616,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Offemont"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135695> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000046"^^xsd:string ;
@@ -2639,7 +2639,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Rheinzabern"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135703> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000047"^^xsd:string ;
@@ -2662,7 +2662,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sinzig"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135708> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000048"^^xsd:string ;
@@ -2685,7 +2685,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Trier"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135714> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000049"^^xsd:string ;
@@ -2708,7 +2708,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Schwabegg"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135717> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000050"^^xsd:string ;
@@ -2731,7 +2731,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kräherwald"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135724> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000051"^^xsd:string ;
@@ -2754,7 +2754,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Waiblingen"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135730> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000052"^^xsd:string ;
@@ -2777,7 +2777,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pfaffenhofen"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135734> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000053"^^xsd:string ;
@@ -2800,7 +2800,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Westerndorf"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135739> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000054"^^xsd:string ;
@@ -2823,7 +2823,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Colchester"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135744> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000055"^^xsd:string ;
@@ -2846,7 +2846,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pulborough"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135749> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000056"^^xsd:string ;
@@ -2869,7 +2869,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Abella"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135752> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000057"^^xsd:string ;
@@ -2892,7 +2892,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Andújar"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135756> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000058"^^xsd:string ;
@@ -2915,7 +2915,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Arenzana de Abajo"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135761> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000059"^^xsd:string ;
@@ -2938,7 +2938,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Arenzana de Arriba"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135765> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000060"^^xsd:string ;
@@ -2961,7 +2961,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Baños de Río Tobía"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135769> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000061"^^xsd:string ;
@@ -2984,7 +2984,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bezares"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135773> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000062"^^xsd:string ;
@@ -3007,7 +3007,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bobadilla"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135778> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000063"^^xsd:string ;
@@ -3030,7 +3030,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bronchales"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135784> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000064"^^xsd:string ;
@@ -3053,7 +3053,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Camproviín"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135788> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000065"^^xsd:string ;
@@ -3076,7 +3076,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Corella"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135792> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000066"^^xsd:string ;
@@ -3099,7 +3099,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cornella de Terri"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135797> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000067"^^xsd:string ;
@@ -3122,7 +3122,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Covarrubias"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135800> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000068"^^xsd:string ;
@@ -3145,7 +3145,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Estollo"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135808> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000069"^^xsd:string ;
@@ -3168,7 +3168,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Granada"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135811> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000070"^^xsd:string ;
@@ -3191,7 +3191,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "La Rioja"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135816> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000071"^^xsd:string ;
@@ -3214,7 +3214,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Liédena"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135824> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000072"^^xsd:string ;
@@ -3237,7 +3237,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Manjarrés"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135828> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000073"^^xsd:string ;
@@ -3260,7 +3260,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Málaga"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135835> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000074"^^xsd:string ;
@@ -3283,7 +3283,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Montroig"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135842> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000075"^^xsd:string ;
@@ -3306,7 +3306,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pamplona"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135846> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000076"^^xsd:string ;
@@ -3329,7 +3329,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pantoja"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135850> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000077"^^xsd:string ;
@@ -3352,7 +3352,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pradejón"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135855> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000078"^^xsd:string ;
@@ -3375,7 +3375,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ruidoms"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135861> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000079"^^xsd:string ;
@@ -3398,7 +3398,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sabadell"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135866> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000080"^^xsd:string ;
@@ -3421,7 +3421,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Solsona"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135880> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000081"^^xsd:string ;
@@ -3444,7 +3444,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sotés"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135891> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000082"^^xsd:string ;
@@ -3467,7 +3467,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Talavera de la Reina"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135899> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000083"^^xsd:string ;
@@ -3490,7 +3490,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Tiermes"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135906> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000084"^^xsd:string ;
@@ -3513,7 +3513,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Tricio"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135911> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000085"^^xsd:string ;
@@ -3536,7 +3536,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ampurias"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135914> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000086"^^xsd:string ;
@@ -3559,7 +3559,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Arezzo"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135920> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000087"^^xsd:string ;
@@ -3582,7 +3582,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cales"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135933> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000088"^^xsd:string ;
@@ -3605,7 +3605,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cincelli"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135942> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000089"^^xsd:string ;
@@ -3628,7 +3628,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Herrera de Pisuerga"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135947> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000090"^^xsd:string ;
@@ -3651,7 +3651,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pisa"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135954> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000091"^^xsd:string ;
@@ -3674,7 +3674,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Po Valley"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135960> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000092"^^xsd:string ;
@@ -3697,7 +3697,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ponte a Buriano"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135970> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000093"^^xsd:string ;
@@ -3720,7 +3720,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pozzuoli"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103135980> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000094"^^xsd:string ;
@@ -3743,7 +3743,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Scoppieto"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136219> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000095"^^xsd:string ;
@@ -3766,7 +3766,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Torrita di Siena"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136223> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000096"^^xsd:string ;
@@ -3789,7 +3789,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Vasanello"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136227> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000097"^^xsd:string ;
@@ -3812,7 +3812,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Venosa"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136235> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000098"^^xsd:string ;
@@ -3835,7 +3835,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Micasasa"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136239> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000099"^^xsd:string ;
@@ -3858,7 +3858,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lyon"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136244> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000100"^^xsd:string ;
@@ -3881,7 +3881,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sagone"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136249> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000101"^^xsd:string ;
@@ -3904,7 +3904,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Albi"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136253> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000102"^^xsd:string ;
@@ -3927,7 +3927,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Rodez"@en ;
-    ns3:instanceOf ns2:Location ;
+    ns4:instanceOf ns2:Location ;
     ns2:exactMatch <http://www.wikidata.org/entity/Q103136256> ;
     ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000103"^^xsd:string ;
@@ -3950,19 +3950,19 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linked_Open_Samian_Ware"@en ;
-    ns4:averageLiteralLength 31 ;
-    ns4:averageObjectIRILength 53 ;
-    ns4:averagePropertyIRILength 43 ;
-    ns4:averageSubjectIRILength 59 ;
-    ns4:datatypes 3 ;
-    ns4:distinctBlankNodes 0 ;
-    ns4:distinctIRIReferences 960 ;
-    ns4:distinctLiterals 319 ;
-    ns4:distinctRDFNodes 1279 ;
-    ns4:languages 1 ;
-    ns4:propertyClasses 0 ;
+    ns3:averageLiteralLength 31 ;
+    ns3:averageObjectIRILength 53 ;
+    ns3:averagePropertyIRILength 43 ;
+    ns3:averageSubjectIRILength 59 ;
+    ns3:datatypes 3 ;
+    ns3:distinctBlankNodes 0 ;
+    ns3:distinctIRIReferences 960 ;
+    ns3:distinctLiterals 319 ;
+    ns3:distinctRDFNodes 1279 ;
+    ns3:languages 1 ;
+    ns3:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-03-21T12:54:21"^^xsd:dateTime ;
+    dcterms:modified "2024-03-21T13:06:10"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -4003,7 +4003,7 @@
         <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_wasGeneratedBy> ;
     void:triples 2487 ;
     void:uriSpace "http://data.archaeology.link/data/samian/"^^xsd:string ;
-    void:vocabulary ns4:,
+    void:vocabulary ns3:,
         dcam:,
         dcmitype:,
         dc:,
