@@ -9,8 +9,8 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.w3.org/ns/prov-o/> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns3: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns3: <http://academic-meta-tool.xyz/vocab#> .
 @prefix ns4: <http://ldf.fi/void-ext#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
@@ -147,10 +147,10 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: Linked_Open_Samian_Ware - lado:"@en ;
-    void:linkPredicate ns2:instanceOf,
-        ns3:hasType,
+    void:linkPredicate ns3:instanceOf,
+        ns2:hasType,
         rdf:type ;
-    void:objectsTarget ns3: ;
+    void:objectsTarget ns2: ;
     void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     void:triples 103,
         206 .
@@ -200,7 +200,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: Linked_Open_Samian_Ware - Wikidata Entities (wde:)"@en ;
-    void:linkPredicate ns3:exactMatch,
+    void:linkPredicate ns2:exactMatch,
         ns1:wasDerivedFrom ;
     void:objectsTarget <http://www.wikidata.org/entity/> ;
     void:subjectsTarget <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
@@ -557,7 +557,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: exactMatch"@en ;
-    void:property ns3:exactMatch ;
+    void:property ns2:exactMatch ;
     void:triples 103 .
 
 <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_hasGeometry> a void:Dataset,
@@ -573,7 +573,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: hasType"@en ;
-    void:property ns3:hasType ;
+    void:property ns2:hasType ;
     void:triples 103 .
 
 <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_identifier> a void:Dataset,
@@ -589,7 +589,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: instanceOf"@en ;
-    void:property ns2:instanceOf ;
+    void:property ns3:instanceOf ;
     void:triples 103 .
 
 <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware_label> a void:Dataset,
@@ -1575,15 +1575,15 @@
     ns1:startedAtTime "2024-03-21T10:54:49.856172+00:00"^^xsd:dateTime ;
     ns1:wasAssociatedWith <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000001> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000001> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "La Graufesenque"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q102763431> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q102763431> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000001"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000001_geom> ;
@@ -1598,15 +1598,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.083333 44.1)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000002> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000002> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Banassac"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135455> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135455> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000002"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000002_geom> ;
@@ -1621,15 +1621,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.2 44.433333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000003> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000003> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Le Rozier"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135459> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135459> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000003"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000003_geom> ;
@@ -1644,15 +1644,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.216667 44.18333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000004> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000004> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Carrade"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135467> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135467> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000004"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000004_geom> ;
@@ -1667,15 +1667,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.666667 44.46667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000005> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000005> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Crambade"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135471> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135471> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000005"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000005_geom> ;
@@ -1690,15 +1690,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.9 43.865)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000006> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000006> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Espalion"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135475> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135475> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000006"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000006_geom> ;
@@ -1713,15 +1713,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.766667 44.516667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000007> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000007> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Jonquières, Saint Saturnin"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135481> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135481> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000007"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000007_geom> ;
@@ -1736,15 +1736,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.466667 43.683333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000008> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000008> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Aspiran"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135496> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135496> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000008"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000008_geom> ;
@@ -1759,15 +1759,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.433333 43.566667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000009> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000009> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Narbonne"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135500> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135500> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000009"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000009_geom> ;
@@ -1782,15 +1782,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.0 43.183333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000010> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000010> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bram"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135508> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135508> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000010"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000010_geom> ;
@@ -1805,15 +1805,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.116667 43.25)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000011> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000011> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Montans"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135513> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135513> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000011"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000011_geom> ;
@@ -1828,15 +1828,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.9 43.866667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000012> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000012> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Saint-Sauveur"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135517> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135517> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000012"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000012_geom> ;
@@ -1851,15 +1851,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.916667 43.9)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000013> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000013> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Valéry"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135521> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135521> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000013"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000013_geom> ;
@@ -1874,15 +1874,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.966667 43.783333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000014> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000014> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cournon"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135526> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135526> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000014"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000014_geom> ;
@@ -1897,15 +1897,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.216667 45.75)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000015> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000015> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Gueugnon"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135532> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135532> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000015"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000015_geom> ;
@@ -1920,15 +1920,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(4.066667 46.6)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000016> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000016> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lezoux"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135540> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135540> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000016"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000016_geom> ;
@@ -1943,15 +1943,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.383333 45.833333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000017> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000017> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lubié"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135546> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135546> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000017"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000017_geom> ;
@@ -1966,15 +1966,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.633333 46.25)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000018> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000018> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Les Martres-de-Veyre"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135552> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135552> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000018"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000018_geom> ;
@@ -1989,15 +1989,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.2 45.683333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000019> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000019> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Mougon"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135554> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135554> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000019"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000019_geom> ;
@@ -2012,15 +2012,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.466667 47.1)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000020> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000020> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Nouâtre"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135559> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135559> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000020"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000020_geom> ;
@@ -2035,15 +2035,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.55 47.05)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000021> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000021> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Toulon-sur-Allier"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135565> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135565> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000021"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000021_geom> ;
@@ -2058,15 +2058,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.366667 46.516667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000022> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000022> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Vichy, Terre Franche"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135570> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135570> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000022"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000022_geom> ;
@@ -2081,15 +2081,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.4 46.116667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000023> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000023> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Aachen"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135575> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135575> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000023"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000023_geom> ;
@@ -2104,15 +2104,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.105278 50.770833)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000024> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000024> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Avocourt"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135580> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135580> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000024"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000024_geom> ;
@@ -2127,15 +2127,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(5.15 49.2)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000025> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000025> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Baden"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135582> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135582> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000025"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000025_geom> ;
@@ -2150,15 +2150,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(8.3 47.466667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000026> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000026> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bern"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135588> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135588> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000026"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000026_geom> ;
@@ -2173,15 +2173,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.466667 46.916667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000027> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000027> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Blickweiler"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135593> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135593> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000027"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000027_geom> ;
@@ -2196,15 +2196,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.25 49.216667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000028> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000028> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bliesbruck"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135600> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135600> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000028"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000028_geom> ;
@@ -2219,15 +2219,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.183333 49.116667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000029> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000029> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Boucheporn"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135608> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135608> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000029"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000029_geom> ;
@@ -2242,15 +2242,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.6 49.15)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000030> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000030> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Chémery-Faulquemont"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135613> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135613> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000030"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000030_geom> ;
@@ -2265,15 +2265,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.50833 49.15)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000031> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000031> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Eincheville"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135618> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135618> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000031"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000031_geom> ;
@@ -2288,15 +2288,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.6 48.983333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000032> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000032> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Eschweilerhof"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135621> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135621> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000032"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000032_geom> ;
@@ -2311,15 +2311,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.2 49.3)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000033> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000033> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Haute-Yutz"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135627> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135627> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000033"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000033_geom> ;
@@ -2334,15 +2334,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.2 49.35)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000034> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000034> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Heiligenberg"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135630> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135630> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000034"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000034_geom> ;
@@ -2357,15 +2357,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.4 48.533333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000035> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000035> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Horbourg"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135638> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135638> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000035"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000035_geom> ;
@@ -2380,15 +2380,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.383333 48.083333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000036> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000036> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ittenwiller"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135642> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135642> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000036"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000036_geom> ;
@@ -2403,15 +2403,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.466667 48.383333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000037> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000037> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Jaulges-Villiers-Vineux"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135647> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135647> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000037"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000037_geom> ;
@@ -2426,15 +2426,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.783333 47.966667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000038> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000038> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "La Madeleine"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135650> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135650> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000038"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000038_geom> ;
@@ -2449,15 +2449,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.25 48.65)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000039> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000039> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lavoye"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135658> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135658> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000039"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000039_geom> ;
@@ -2472,15 +2472,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(5.13333 49.0333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000040> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000040> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lehen"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135664> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135664> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000040"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000040_geom> ;
@@ -2495,15 +2495,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.8 48.016667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000041> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000041> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Le Pont des Rèmes"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135669> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135669> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000041"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000041_geom> ;
@@ -2518,15 +2518,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(4.95 49.1333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000042> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000042> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Les Allieux"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135673> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135673> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000042"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000042_geom> ;
@@ -2541,15 +2541,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(5.06667 49.2)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000043> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000043> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Luxeuil-les-Bains"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135681> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135681> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000043"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000043_geom> ;
@@ -2564,15 +2564,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.383333 47.816667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000044> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000044> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Mittelbronn"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135687> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135687> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000044"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000044_geom> ;
@@ -2587,15 +2587,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.216667 48.766667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000045> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000045> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Nürtingen"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135692> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135692> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000045"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000045_geom> ;
@@ -2610,15 +2610,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(9.35 48.633333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000046> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000046> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Offemont"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135695> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135695> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000046"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000046_geom> ;
@@ -2633,15 +2633,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.883333 47.666667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000047> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000047> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Rheinzabern"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135703> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135703> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000047"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000047_geom> ;
@@ -2656,15 +2656,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(8.278056 49.118056)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000048> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000048> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sinzig"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135708> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135708> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000048"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000048_geom> ;
@@ -2679,15 +2679,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.25 50.55)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000049> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000049> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Trier"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135714> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135714> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000049"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000049_geom> ;
@@ -2702,15 +2702,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.633333 49.75)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000050> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000050> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Schwabegg"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135717> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135717> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000050"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000050_geom> ;
@@ -2725,15 +2725,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(10.683333 48.183333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000051> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000051> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Kräherwald"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135724> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135724> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000051"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000051_geom> ;
@@ -2748,15 +2748,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(9.183333 48.766667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000052> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000052> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Waiblingen"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135730> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135730> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000052"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000052_geom> ;
@@ -2771,15 +2771,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(9.3 48.833333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000053> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000053> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pfaffenhofen"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135734> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135734> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000053"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000053_geom> ;
@@ -2794,15 +2794,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.133333 47.9)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000054> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000054> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Westerndorf"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135739> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135739> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000054"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000054_geom> ;
@@ -2817,15 +2817,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.116667 47.883333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000055> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000055> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Colchester"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135744> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135744> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000055"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000055_geom> ;
@@ -2840,15 +2840,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.9 51.883333)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000056> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000056> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pulborough"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135749> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135749> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000056"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000056_geom> ;
@@ -2863,15 +2863,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-0.516667 50.95)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000057> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000057> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Abella"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135752> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135752> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000057"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000057_geom> ;
@@ -2886,15 +2886,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.3166699 42.3167)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000058> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000058> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Andújar"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135756> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135756> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000058"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000058_geom> ;
@@ -2909,15 +2909,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.0666699 38.0499992)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000059> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000059> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Arenzana de Abajo"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135761> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135761> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000059"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000059_geom> ;
@@ -2932,15 +2932,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.71667 42.3833008)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000060> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000060> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Arenzana de Arriba"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135765> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135765> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000060"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000060_geom> ;
@@ -2955,15 +2955,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6833301 42.3833008)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000061> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000061> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Baños de Río Tobía"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135769> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135769> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000061"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000061_geom> ;
@@ -2978,15 +2978,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.75 42.3333015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000062> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000062> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bezares"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135773> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135773> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000062"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000062_geom> ;
@@ -3001,15 +3001,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6666701 42.3666992)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000063> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000063> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bobadilla"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135778> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135778> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000063"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000063_geom> ;
@@ -3024,15 +3024,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.75 42.3167)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000064> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000064> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Bronchales"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135784> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135784> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000064"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000064_geom> ;
@@ -3047,15 +3047,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.58333 40.5167007)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000065> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000065> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Camproviín"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135788> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135788> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000065"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000065_geom> ;
@@ -3070,15 +3070,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.71667 42.3499985)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000066> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000066> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Corella"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135792> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135792> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000066"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000066_geom> ;
@@ -3093,15 +3093,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.78333 42.1166992)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000067> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000067> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cornella de Terri"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135797> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135797> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000067"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000067_geom> ;
@@ -3116,15 +3116,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.8166699 42.0833015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000068> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000068> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Covarrubias"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135800> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135800> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000068"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000068_geom> ;
@@ -3139,15 +3139,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.51667 42.0667)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000069> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000069> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Estollo"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135808> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135808> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000069"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000069_geom> ;
@@ -3162,15 +3162,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.8499999 42.3333015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000070> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000070> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Granada"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135811> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135811> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000070"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000070_geom> ;
@@ -3185,15 +3185,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.425 37.2167015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000071> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000071> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "La Rioja"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135816> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135816> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000071"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000071_geom> ;
@@ -3208,15 +3208,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.5 42.3333015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000072> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000072> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Liédena"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135824> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135824> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000072"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000072_geom> ;
@@ -3231,15 +3231,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.26667 42.6166992)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000073> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000073> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Manjarrés"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135828> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135828> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000073"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000073_geom> ;
@@ -3254,15 +3254,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6666701 42.3833008)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000074> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000074> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Málaga"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135835> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135835> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000074"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000074_geom> ;
@@ -3277,15 +3277,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.4166698 36.7167015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000075> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000075> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Montroig"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135842> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135842> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000075"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000075_geom> ;
@@ -3300,15 +3300,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.966667 41.0833015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000076> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000076> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pamplona"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135846> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135846> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000076"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000076_geom> ;
@@ -3323,15 +3323,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.63333 42.8167)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000077> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000077> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pantoja"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135850> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135850> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000077"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000077_geom> ;
@@ -3346,15 +3346,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.8333299 40.0499992)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000078> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000078> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pradejón"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135855> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135855> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000078"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000078_geom> ;
@@ -3369,15 +3369,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.0666699 42.333301)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000079> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000079> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ruidoms"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135861> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135861> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000079"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000079_geom> ;
@@ -3392,15 +3392,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.05 41.1333008)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000080> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000080> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sabadell"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135866> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135866> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000080"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000080_geom> ;
@@ -3415,15 +3415,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.099999 41.5499992)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000081> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000081> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Solsona"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135880> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135880> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000081"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000081_geom> ;
@@ -3438,15 +3438,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.51667 41.9832993)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000082> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000082> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sotés"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135891> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135891> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000082"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000082_geom> ;
@@ -3461,15 +3461,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6054001 42.3907585)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000083> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000083> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Talavera de la Reina"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135899> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135899> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000083"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000083_geom> ;
@@ -3484,15 +3484,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.8333302 39.9500008)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000084> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000084> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Tiermes"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135906> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135906> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000084"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000084_geom> ;
@@ -3507,15 +3507,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.2 41.3666687)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000085> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000085> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Tricio"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135911> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135911> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000085"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000085_geom> ;
@@ -3530,15 +3530,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.71667 42.4000015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000086> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000086> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ampurias"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135914> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135914> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000086"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000086_geom> ;
@@ -3553,15 +3553,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.1166699 42.1333008)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000087> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000087> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Arezzo"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135920> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135920> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000087"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000087_geom> ;
@@ -3576,15 +3576,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.8800001 43.4640007)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000088> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000088> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cales"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135933> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135933> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000088"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000088_geom> ;
@@ -3599,15 +3599,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.8652401 41.0716209)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000089> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000089> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Cincelli"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135942> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135942> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000089"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000089_geom> ;
@@ -3622,15 +3622,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.7985001 43.5116997)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000090> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000090> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Herrera de Pisuerga"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135947> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135947> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000090"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000090_geom> ;
@@ -3645,15 +3645,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.3333302 42.5999985)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000091> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000091> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pisa"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135954> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135954> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000091"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000091_geom> ;
@@ -3668,15 +3668,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(10.3832998 43.7167015)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000092> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000092> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Po Valley"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135960> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135960> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000092"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000092_geom> ;
@@ -3691,15 +3691,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(10.5 45.0)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000093> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000093> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Ponte a Buriano"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135970> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135970> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000093"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000093_geom> ;
@@ -3714,15 +3714,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.8000002 43.507)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000094> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000094> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Pozzuoli"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103135980> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103135980> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000094"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000094_geom> ;
@@ -3737,15 +3737,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.1167002 40.8167)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000095> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000095> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Scoppieto"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136219> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136219> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000095"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000095_geom> ;
@@ -3760,15 +3760,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.2833328 42.7166672)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000096> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000096> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Torrita di Siena"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136223> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136223> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000096"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000096_geom> ;
@@ -3783,15 +3783,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.7666664 43.1666679)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000097> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000097> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Vasanello"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136227> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136227> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000097"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000097_geom> ;
@@ -3806,15 +3806,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.3500004 42.4166985)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000098> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000098> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Venosa"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136235> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136235> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000098"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000098_geom> ;
@@ -3829,15 +3829,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(15.8166666 40.9666672)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000099> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000099> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Micasasa"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136239> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136239> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000099"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000099_geom> ;
@@ -3852,15 +3852,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(24.108056 46.08666)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000100> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000100> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Lyon"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136244> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136244> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000100"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000100_geom> ;
@@ -3875,15 +3875,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(4.84 45.76)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000101> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000101> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Sagone"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136249> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136249> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000101"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000101_geom> ;
@@ -3898,15 +3898,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(8.702547 42.112142)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000102> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000102> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Albi"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136253> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136253> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000102"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000102_geom> ;
@@ -3921,15 +3921,15 @@
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.149255 43.927186)"^^geo:wktLiteral .
 
-<http://data.archaeology.link/data/samian/loc_pc_2000103> a ns3:Location,
-        ns3:ProductionCentre,
+<http://data.archaeology.link/data/samian/loc_pc_2000103> a ns2:Location,
+        ns2:ProductionCentre,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Rodez"@en ;
-    ns2:instanceOf ns3:Location ;
-    ns3:exactMatch <http://www.wikidata.org/entity/Q103136256> ;
-    ns3:hasType ns3:ProductionCentre ;
+    ns3:instanceOf ns2:Location ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103136256> ;
+    ns2:hasType ns2:ProductionCentre ;
     dc:identifier "loc-pc:2000103"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> ;
     geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000103_geom> ;
@@ -3962,7 +3962,7 @@
     ns4:languages 1 ;
     ns4:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-03-21T13:17:01"^^xsd:dateTime ;
+    dcterms:modified "2024-03-21T13:23:29"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
