@@ -16,7 +16,7 @@ jobs:
           indexpages: true
           metadatatable: false
           createcollections: true
-          createVOWL: false
+          createVOWL: true
           preferredlang: en
           ghpages: true
           datasettitle: Linked Open Samian Ware
