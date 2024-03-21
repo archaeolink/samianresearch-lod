@@ -1,9 +1,0 @@
-@prefix ns1: <http://purl.org/vocommons/voaf#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://data.archaeology.link/data/samian/wgs_Linked_Open_Samian_Ware_occ> a ns1:DatasetOccurrence,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in Linked_Open_Samian_Ware" ;
-    ns1:inDataset <http://data.archaeology.link/data/samian/Linked_Open_Samian_Ware> .
-
