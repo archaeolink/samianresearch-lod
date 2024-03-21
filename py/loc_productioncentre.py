@@ -1,12 +1,12 @@
 __author__ = "Florian Thiery, Dennis Gottwald"
-__copyright__ = "MIT Licence 2020, RGZM, Florian Thiery"
+__copyright__ = "MIT Licence 2024, LEIZA, Florian Thiery"
 __credits__ = ["Florian Thiery, Dennis Gottwald"]
 __license__ = "MIT"
-__version__ = "beta"
+__version__ = "v1.0"
 __maintainer__ = "Florian Thiery"
-__email__ = "thiery@rgzm.de"
-__status__ = "beta"
-__update__ = "2020-12-09"
+__email__ = "florian.thiery@leiza.de"
+__status__ = "active"
+__update__ = "2024-03-21"
 
 # import dependencies
 import uuid
@@ -60,7 +60,7 @@ for index, row in data.iterrows():
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "amt:instanceOf" + " lado:Location .")
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "lado:hasType" + " lado:ProductionCentre .")
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`') + "'@en" + ".")
-    lines.append("samian:loc_pc_" + str(row['id']) + " " + "dc:identifier" + " " + "" + str(row['id']) + "" + ".")
+    lines.append("samian:loc_pc_" + str(row['id']) + " " + "dc:identifier" + " " + "\"loc-pc:" + str(row['id']) + "\"^^xsd:string" + ".")
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "lado:exactMatch" + " " + "wd:" + str(row['wikidata']) + " . ")
     # geom
     lines.append("samian:loc_pc_" + str(row['id']) + " " + "geosparql:hasGeometry" + " samian:loc_pc_" + str(row['id']) + "_geom .")
@@ -91,7 +91,7 @@ f = 0
 step = 100000
 fileprefix = "loc_productioncentre_"
 prefixes = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \r\nPREFIX owl: <http://www.w3.org/2002/07/owl#> \r\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#> \r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \r\nPREFIX geosparql: <http://www.opengis.net/ont/geosparql#> \r\nPREFIX dc: <http://purl.org/dc/elements/1.1/> \r\nPREFIX sf: <http://www.opengis.net/ont/sf#> \r\n"
-prefixes += "PREFIX lado: <http://archaeology.link/ontology#> \r\nPREFIX samian: <http://data.archaeology.link/data/samian/> \r\nPREFIX wd: <http://www.wikidata.org/entity/> \r\n PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> \r\nPREFIX oa: <http://www.w3.org/ns/oa#> \r\nPREFIX dcterms: <http://purl.org/dc/terms/> \r\nPREFIX foaf: <http://xmlns.com/foaf/0.1/> \r\nPREFIX relations: <http://pelagios.github.io/vocab/relations#> \r\nPREFIX cnt: <http://www.w3.org/2011/content#> \r\nPREFIX pleiades: <http://pleiades.stoa.org/places/> \r\nPREFIX amt: <http://academic-meta-tool.xyz/vocab#> \r\n"
+prefixes += "PREFIX lado: <http://archaeology.link/ontology#> \r\nPREFIX samian: <http://data.archaeology.link/data/samian/> \r\nPREFIX wd: <http://www.wikidata.org/entity/> \r\nPREFIX pelagios: <http://pelagios.github.io/vocab/terms#> \r\nPREFIX oa: <http://www.w3.org/ns/oa#> \r\nPREFIX prov: <http://www.w3.org/ns/prov-o/> \r\nPREFIX dcterms: <http://purl.org/dc/terms/> \r\nPREFIX foaf: <http://xmlns.com/foaf/0.1/> \r\nPREFIX relations: <http://pelagios.github.io/vocab/relations#> \r\nPREFIX cnt: <http://www.w3.org/2011/content#> \r\nPREFIX pleiades: <http://pleiades.stoa.org/places/> \r\nPREFIX amt: <http://academic-meta-tool.xyz/vocab#> \r\n"
 prefixes += "\r\n"
 for x in range(1, int(files) + 1):
     strX = str(x)
