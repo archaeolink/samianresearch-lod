@@ -1,1 +1,1 @@
-Sitemap: /samian-lod/sitemap.xml
+Sitemap: /samianresearch-lod/sitemap.xml
