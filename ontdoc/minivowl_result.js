@@ -28,18 +28,11 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 1,
-   "target": 2,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov-o/wasGeneratedBy"
-  },
-  {
    "source": 0,
-   "target": 2,
-   "valueTo": "wasGeneratedBy",
+   "target": 3,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov-o/wasGeneratedBy"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 1,
@@ -50,10 +43,17 @@ var minivowlresult={
   },
   {
    "source": 0,
-   "target": 3,
-   "valueTo": "hasGeometry",
+   "target": 2,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.w3.org/ns/prov-o/wasGeneratedBy"
+  },
+  {
+   "source": 1,
+   "target": 2,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov-o/wasGeneratedBy"
   }
  ]
 }
